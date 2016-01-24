@@ -1,0 +1,169 @@
+/* $Id: site.css 2240 2012-09-24 16:58:15Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved. */
+
+body, html {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: Verdana, sans-serif;
+}
+
+/* password reset; account disable; account confirm disable, update role */
+input[name=pwreset] {
+    color:red;
+}
+input[name=disable] {
+    color:red;
+}
+input[name=updaterole] {
+    color:red;
+}
+
+/* site wide div ids */
+#container {
+	width: 95%;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+#header {
+	clear: both;
+	border-bottom: 1px solid DarkBlue;
+}
+
+#main {
+	float: left;
+	width: 85%;
+	padding: 10px 0 10px 0;
+	border-right: 1px solid DarkBlue;
+}
+
+#menu {
+	margin-right: 0px;
+	padding: 10px 0 10px 10px;
+}
+
+#menuitem {
+        background-color: #ccccff;
+}
+
+#footer {
+	clear: both;
+	font-size: 9pt;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: gray;
+	padding-top: 10px;
+	border-top: 1px solid DarkBlue;
+}
+
+hr {
+    /* hr requires both color attributes for all browsers */
+    color: DarkBlue;
+    background-color: DarkBlue;
+	height: 1px;
+}
+
+/* site wide classes */
+.fieldValueFirst {
+	font-family: Times New Roman, serif;
+    font-weight: darker;
+    text-align: left;
+}
+
+.fieldValue {
+	font-family: Times New Roman, serif;
+    font-weight: darker;
+    text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.fieldLink {
+	font-family: Times New Roman, serif;
+    font-weight: darker;
+    text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.fieldTitle {
+    font-size: 0.75em;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: right;
+} /* .fieldTitle */
+
+.fieldError {
+	font-family: Times New Roman, serif;
+    font-weight: bold;
+    text-align: center;
+	color: red;
+}
+
+.rowTitle {
+    background-color: LightBlue;
+    font-size: 0.75em;
+    font-weight: darker;
+    font-style: italic;
+    text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.rowTitle2 {
+    background-color: #004499;
+    font-size: 0.75em;
+    font-weight: darker;
+    font-style: italic;
+    text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.titleBig {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.prefBig {
+	font-size: 110%;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.prefMid {
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.prefSmall {
+	font-size: 70%;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.unstaffed {
+	background-color: #A9A9A9;
+}
+
+.understaffed {
+	background-color: #FF7777;
+}
+
+.overstaffed {
+	background-color: #FFAF0A;
+}
+
+.rightstaffed {
+	background-color: #77FF77;
+}
+
+.mainTitle {
+	background-color: LightBlue;
+}
+
+.sectionTitle {
+	background-color: LightGreen;
+}

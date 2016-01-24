@@ -1,0 +1,392 @@
+Fri Oct  5 16:27:24 2012 - WorkerLogin::password_authenticate(ecgero@comcast.net, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:28:00 2012 - WorkerLogin::password_authenticate(ecgero@comcast.net, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:28:15 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:28:40 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:30:07 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:36:11 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:37:53 2012 - WorkerLogin::password_authenticate(ecgero@comcast.net, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:40:26 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:41:21 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:42:04 2012 - WorkerLogin::password_authenticate(ecgero@comcast.net, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:43:28 2012 - authentication: worker not logged in
+Fri Oct  5 16:43:28 2012 - WorkerLogin::password_reset(ecgero@emailxl.com): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:44:44 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, testpassord): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:47:52 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, Test1234): SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'chronos, phpserver, phppass, Array'
+Fri Oct  5 16:53:10 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 09:56:50 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 10:15:18 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 10:35:33 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 10:40:37 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 10:50:03 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 10:53:17 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 10:54:30 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 11:50:44 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:00:51 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:06:27 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:19:45 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:22:23 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:27:24 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:39:29 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:40:31 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:45:27 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:55:18 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 12:57:36 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 13:01:27 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 13:06:01 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 13:06:49 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 13:16:48 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sat Oct  6 14:23:40 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sun Oct  7 09:22:51 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sun Oct  7 09:40:24 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Sun Oct  7 09:47:14 2012 - Assign to expo: expo:2 - worker:9
+
+Sun Oct  7 09:47:14 2012 - Remove from expo: expo:2 - worker:12
+
+Sun Oct  7 09:47:14 2012 - Remove from expo: expo:2 - worker:13
+
+Sun Oct  7 09:47:14 2012 - Remove from expo: expo:2 - worker:14
+
+Sun Oct  7 09:47:14 2012 - Remove from expo: expo:2 - worker:15
+
+Sun Oct  7 09:47:14 2012 - Remove from expo: expo:2 - worker:16
+
+Sun Oct  7 09:47:14 2012 - Remove from expo: expo:2 - worker:17
+
+Sun Oct  7 09:51:08 2012 - Remove from expo: expo:2 - worker:12
+
+Sun Oct  7 09:51:08 2012 - Remove from expo: expo:2 - worker:13
+
+Sun Oct  7 09:51:08 2012 - Remove from expo: expo:2 - worker:14
+
+Sun Oct  7 09:51:08 2012 - Remove from expo: expo:2 - worker:15
+
+Sun Oct  7 09:51:08 2012 - Remove from expo: expo:2 - worker:16
+
+Sun Oct  7 09:51:08 2012 - Remove from expo: expo:2 - worker:17
+
+Sun Oct  7 09:51:54 2012 - Assign to expo: expo:2 - worker:12
+
+Sun Oct  7 09:51:54 2012 - Assign to expo: expo:2 - worker:13
+
+Sun Oct  7 09:51:54 2012 - Assign to expo: expo:2 - worker:14
+
+Sun Oct  7 09:51:54 2012 - Assign to expo: expo:2 - worker:15
+
+Sun Oct  7 09:51:54 2012 - Assign to expo: expo:2 - worker:16
+
+Sun Oct  7 09:51:55 2012 - Assign to expo: expo:2 - worker:17
+
+Sun Oct  7 13:35:54 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 13:23:13 2012 - authentication: worker not logged in
+Mon Oct  8 13:23:24 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:08:05 2012 - authentication: worker not logged in
+Mon Oct  8 18:08:16 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:09:03 2012 - Remove from expo: expo:2 - worker:12
+
+Mon Oct  8 18:09:04 2012 - Remove from expo: expo:2 - worker:13
+
+Mon Oct  8 18:09:04 2012 - Remove from expo: expo:2 - worker:14
+
+Mon Oct  8 18:09:49 2012 - Assign to expo: expo:2 - worker:12
+
+Mon Oct  8 18:09:49 2012 - Assign to expo: expo:2 - worker:13
+
+Mon Oct  8 18:09:49 2012 - Assign to expo: expo:2 - worker:14
+
+Mon Oct  8 18:12:27 2012 - Assign to expo: expo:2 - worker:9
+
+Mon Oct  8 18:12:27 2012 - Remove from expo: expo:2 - worker:12
+
+Mon Oct  8 18:12:27 2012 - Remove from expo: expo:2 - worker:13
+
+Mon Oct  8 18:12:27 2012 - Remove from expo: expo:2 - worker:14
+
+Mon Oct  8 18:12:27 2012 - Remove from expo: expo:2 - worker:15
+
+Mon Oct  8 18:12:27 2012 - Remove from expo: expo:2 - worker:16
+
+Mon Oct  8 18:12:27 2012 - Remove from expo: expo:2 - worker:17
+
+Mon Oct  8 18:18:55 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:18:55 2012 - Worker:: 5
+Mon Oct  8 18:18:55 2012 - Author:: 5
+Mon Oct  8 18:18:55 2012 - Worker:: 5
+Mon Oct  8 18:18:55 2012 - Author:: 5
+Mon Oct  8 18:19:12 2012 - Worker:: 5
+Mon Oct  8 18:19:12 2012 - Author:: 5
+Mon Oct  8 18:19:31 2012 - Worker:: 5
+Mon Oct  8 18:19:31 2012 - Author:: 5
+Mon Oct  8 18:23:42 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:23:42 2012 - Worker:: 5
+Mon Oct  8 18:23:42 2012 - Author:: 5
+Mon Oct  8 18:23:42 2012 - Worker:: 5
+Mon Oct  8 18:23:42 2012 - Author:: 5
+Mon Oct  8 18:27:33 2012 - Worker:: 5
+Mon Oct  8 18:27:33 2012 - Author:: 5
+Mon Oct  8 18:27:52 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:27:52 2012 - Worker:: 5
+Mon Oct  8 18:27:52 2012 - Author:: 5
+Mon Oct  8 18:27:52 2012 - Worker:: 5
+Mon Oct  8 18:27:52 2012 - Author:: 5
+Mon Oct  8 18:28:14 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:28:14 2012 - Worker:: 5
+Mon Oct  8 18:28:14 2012 - Author:: 5
+Mon Oct  8 18:28:14 2012 - Worker:: 5
+Mon Oct  8 18:28:14 2012 - Author:: 5
+Mon Oct  8 18:28:23 2012 - Worker:: 5
+Mon Oct  8 18:28:23 2012 - Author:: 5
+Mon Oct  8 18:30:00 2012 - Worker:: 5
+Mon Oct  8 18:30:00 2012 - Author:: 5
+Mon Oct  8 18:31:04 2012 - Worker:: 5
+Mon Oct  8 18:31:04 2012 - Author:: 5
+Mon Oct  8 18:32:09 2012 - Worker:: 5
+Mon Oct  8 18:32:09 2012 - Author:: 5
+Mon Oct  8 18:32:47 2012 - Worker:: 5
+Mon Oct  8 18:32:47 2012 - Author:: 5
+Mon Oct  8 18:32:54 2012 - Worker:: 5
+Mon Oct  8 18:32:54 2012 - Author:: 5
+Mon Oct  8 18:34:00 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:34:00 2012 - Worker:: 5
+Mon Oct  8 18:34:00 2012 - Author:: 5
+Mon Oct  8 18:34:00 2012 - Worker:: 5
+Mon Oct  8 18:34:00 2012 - Author:: 5
+Mon Oct  8 18:34:25 2012 - Worker:: 5
+Mon Oct  8 18:34:25 2012 - Author:: 5
+Mon Oct  8 18:35:58 2012 - Worker:: 5
+Mon Oct  8 18:35:58 2012 - Author:: 5
+Mon Oct  8 18:37:05 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:37:40 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:37:40 2012 - Worker:: 2
+Mon Oct  8 18:37:40 2012 - Author:: 2
+Mon Oct  8 18:37:40 2012 - Worker:: 2
+Mon Oct  8 18:37:40 2012 - Author:: 2
+Mon Oct  8 18:37:44 2012 - Worker:: 5
+Mon Oct  8 18:37:44 2012 - Author:: 5
+Mon Oct  8 18:37:46 2012 - Worker:: 2
+Mon Oct  8 18:37:46 2012 - Author:: 2
+Mon Oct  8 18:38:07 2012 - Worker:: 2
+Mon Oct  8 18:38:07 2012 - Author:: 2
+Mon Oct  8 18:38:28 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:38:28 2012 - Worker:: 2
+Mon Oct  8 18:38:28 2012 - Author:: 2
+Mon Oct  8 18:38:29 2012 - Worker:: 2
+Mon Oct  8 18:38:29 2012 - Author:: 2
+Mon Oct  8 18:41:42 2012 - Worker:: 5
+Mon Oct  8 18:41:42 2012 - Author:: 5
+Mon Oct  8 18:42:59 2012 - Worker:: 5
+Mon Oct  8 18:42:59 2012 - Author:: 5
+Mon Oct  8 18:44:01 2012 - Worker:: 5
+Mon Oct  8 18:44:01 2012 - Author:: 5
+Mon Oct  8 18:44:22 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 18:44:22 2012 - Worker:: 2
+Mon Oct  8 18:44:22 2012 - Author:: 2
+Mon Oct  8 18:44:22 2012 - Worker:: 2
+Mon Oct  8 18:44:22 2012 - Author:: 2
+Mon Oct  8 18:44:27 2012 - Worker:: 5
+Mon Oct  8 18:44:27 2012 - Author:: 5
+Mon Oct  8 18:44:29 2012 - Worker:: 2
+Mon Oct  8 18:44:29 2012 - Author:: 2
+Mon Oct  8 18:47:12 2012 - Worker:: 2
+Mon Oct  8 18:47:12 2012 - Author:: 2
+Mon Oct  8 18:51:06 2012 - Worker:: 5
+Mon Oct  8 18:51:06 2012 - Author:: 5
+Mon Oct  8 19:05:34 2012 - Worker:: 5
+Mon Oct  8 19:05:34 2012 - Author:: 5
+Mon Oct  8 19:05:49 2012 - Worker:: 5
+Mon Oct  8 19:05:49 2012 - Author:: 5
+Mon Oct  8 19:12:54 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 19:15:56 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 19:16:09 2012 - Worker:: 18
+Mon Oct  8 19:16:09 2012 - Author:: 18
+Mon Oct  8 19:16:10 2012 - Worker:: 18
+Mon Oct  8 19:16:10 2012 - Author:: 18
+Mon Oct  8 19:17:21 2012 - authentication: worker not logged in
+Mon Oct  8 19:20:06 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 19:57:27 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 19:58:16 2012 - message: y@emailxl.com
+Mon Oct  8 19:59:43 2012 - message: y@emailxl.com
+Mon Oct  8 20:00:03 2012 - message: y@emailxl.com
+Mon Oct  8 20:04:25 2012 - message: v@emailxl.com
+Mon Oct  8 20:12:38 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Mon Oct  8 20:13:33 2012 - message: wmurray@emailxl.com
+Tue Oct  9 10:59:01 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 11:21:13 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 11:27:10 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 11:27:26 2012 - Remove from expo: expo:2 - worker:12
+
+Tue Oct  9 11:27:26 2012 - Remove from expo: expo:2 - worker:13
+
+Tue Oct  9 11:27:26 2012 - Remove from expo: expo:2 - worker:14
+
+Tue Oct  9 11:27:26 2012 - Remove from expo: expo:2 - worker:15
+
+Tue Oct  9 11:27:26 2012 - Remove from expo: expo:2 - worker:16
+
+Tue Oct  9 11:27:26 2012 - Remove from expo: expo:2 - worker:17
+
+Tue Oct  9 11:35:43 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 11:36:45 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 12:11:30 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 12:26:31 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 12:35:21 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 12:43:48 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 12:47:02 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 13:04:45 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 13:06:40 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 13:07:38 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 13:14:57 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 13:25:08 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 13:43:21 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 13:43:39 2012 - Worker:: 1
+Tue Oct  9 13:43:39 2012 - Author:: 1
+Tue Oct  9 13:50:13 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 15:40:16 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 16:25:06 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 17:57:07 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 19:27:31 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 19:28:38 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 19:30:18 2012 - Worker:: 5
+Tue Oct  9 19:30:18 2012 - Author:: 5
+Tue Oct  9 19:30:23 2012 - Worker:: 5
+Tue Oct  9 19:30:23 2012 - Author:: 5
+Tue Oct  9 19:46:30 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 20:55:01 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 21:06:30 2012 - Worker:: 5
+Tue Oct  9 21:06:30 2012 - Author:: 5
+Tue Oct  9 21:06:51 2012 - Worker:: 5
+Tue Oct  9 21:06:51 2012 - Author:: 5
+Tue Oct  9 21:08:05 2012 - Worker:: 5
+Tue Oct  9 21:08:05 2012 - Author:: 5
+Tue Oct  9 21:09:30 2012 - Worker:: 5
+Tue Oct  9 21:09:30 2012 - Author:: 5
+Tue Oct  9 21:13:34 2012 - Worker:: 5
+Tue Oct  9 21:13:34 2012 - Author:: 5
+Tue Oct  9 21:17:00 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Tue Oct  9 21:17:40 2012 - Worker:: 3
+Tue Oct  9 21:17:40 2012 - Author:: 3
+Tue Oct  9 21:17:50 2012 - Worker:: 3
+Tue Oct  9 21:17:50 2012 - Author:: 3
+Tue Oct  9 21:17:55 2012 - Worker:: 3
+Tue Oct  9 21:17:55 2012 - Author:: 3
+Tue Oct  9 21:18:05 2012 - Worker:: 3
+Tue Oct  9 21:18:05 2012 - Author:: 3
+Tue Oct  9 21:18:15 2012 - Worker:: 3
+Tue Oct  9 21:18:15 2012 - Author:: 3
+Tue Oct  9 21:18:21 2012 - Worker:: 3
+Tue Oct  9 21:18:21 2012 - Author:: 3
+Tue Oct  9 21:18:25 2012 - Worker:: 3
+Tue Oct  9 21:18:25 2012 - Author:: 3
+Tue Oct  9 21:20:44 2012 - Worker:: 3
+Tue Oct  9 21:20:44 2012 - Author:: 3
+Tue Oct  9 21:20:53 2012 - Worker:: 3
+Tue Oct  9 21:20:53 2012 - Author:: 3
+Tue Oct  9 21:20:58 2012 - Worker:: 3
+Tue Oct  9 21:20:58 2012 - Author:: 3
+Tue Oct  9 21:23:07 2012 - Worker:: 3
+Tue Oct  9 21:23:07 2012 - Author:: 3
+Tue Oct  9 21:23:12 2012 - Worker:: 3
+Tue Oct  9 21:23:12 2012 - Author:: 3
+Wed Oct 10 00:41:23 2012 - Worker:: 3
+Wed Oct 10 00:41:23 2012 - Author:: 3
+Wed Oct 10 01:08:20 2012 - Worker:: 3
+Wed Oct 10 01:08:20 2012 - Author:: 3
+Wed Oct 10 01:09:04 2012 - Worker:: 3
+Wed Oct 10 01:09:04 2012 - Author:: 3
+Wed Oct 10 01:09:12 2012 - Worker:: 3
+Wed Oct 10 01:09:12 2012 - Author:: 3
+Wed Oct 10 01:09:16 2012 - Worker:: 3
+Wed Oct 10 01:09:16 2012 - Author:: 3
+Wed Oct 10 01:38:19 2012 - Worker:: 3
+Wed Oct 10 01:38:19 2012 - Author:: 3
+Wed Oct 10 01:38:39 2012 - Worker:: 3
+Wed Oct 10 01:38:39 2012 - Author:: 3
+Wed Oct 10 01:38:47 2012 - Worker:: 3
+Wed Oct 10 01:38:47 2012 - Author:: 3
+Wed Oct 10 01:38:48 2012 - Worker:: 3
+Wed Oct 10 01:38:48 2012 - Author:: 3
+Wed Oct 10 12:30:38 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:30:54 2012 - Worker:: 4
+Wed Oct 10 12:30:54 2012 - Author:: 4
+Wed Oct 10 12:31:00 2012 - Worker:: 4
+Wed Oct 10 12:31:00 2012 - Author:: 4
+Wed Oct 10 12:31:23 2012 - Worker:: 4
+Wed Oct 10 12:31:23 2012 - Author:: 4
+Wed Oct 10 12:31:35 2012 - Worker:: 4
+Wed Oct 10 12:31:35 2012 - Author:: 4
+Wed Oct 10 12:38:44 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:41:42 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:42:07 2012 - Remove from expo: expo:2 - worker:4
+
+Wed Oct 10 12:42:18 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:43:47 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:44:12 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:47:05 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:47:55 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:48:22 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:48:35 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:49:39 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:52:11 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 12:58:12 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 13:01:09 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 13:03:18 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 13:11:05 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 13:20:57 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 13:20:57 2012 - Worker:: 4
+Wed Oct 10 13:20:57 2012 - Author:: 4
+Wed Oct 10 13:20:57 2012 - Worker:: 4
+Wed Oct 10 13:20:57 2012 - Author:: 4
+Wed Oct 10 13:21:11 2012 - Worker:: 4
+Wed Oct 10 13:21:11 2012 - Author:: 4
+Wed Oct 10 13:21:16 2012 - Worker:: 4
+Wed Oct 10 13:21:16 2012 - Author:: 4
+Wed Oct 10 13:22:06 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 13:22:09 2012 - Worker:: 4
+Wed Oct 10 13:22:09 2012 - Author:: 4
+Wed Oct 10 13:22:25 2012 - Worker:: 4
+Wed Oct 10 13:22:25 2012 - Author:: 4
+Wed Oct 10 13:25:37 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 13:57:58 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 14:03:37 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 14:10:28 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Wed Oct 10 14:11:37 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 11:58:00 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 11:58:44 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 11:58:44 2012 - Worker:: 17
+Thu Oct 11 11:58:44 2012 - Author:: 17
+Thu Oct 11 11:58:44 2012 - Worker:: 17
+Thu Oct 11 11:58:44 2012 - Author:: 17
+Thu Oct 11 12:20:05 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 12:32:48 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 12:35:03 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 12:39:16 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 12:39:16 2012 - Worker:: 17
+Thu Oct 11 12:39:16 2012 - Author:: 17
+Thu Oct 11 12:39:16 2012 - Worker:: 17
+Thu Oct 11 12:39:16 2012 - Author:: 17
+Thu Oct 11 12:39:23 2012 - Worker:: 17
+Thu Oct 11 12:39:23 2012 - Author:: 17
+Thu Oct 11 12:43:09 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 13:00:09 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 13:25:43 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 13:26:14 2012 - Worker:: 16
+Thu Oct 11 13:26:14 2012 - Author:: 16
+Thu Oct 11 13:26:40 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 13:56:45 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 13:56:54 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 14:18:03 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 14:19:11 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 14:34:31 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 14:45:29 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 14:48:31 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 15:13:34 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 15:22:53 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 15:27:39 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 15:28:17 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 15:37:24 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 15:40:43 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Thu Oct 11 16:07:34 2012 - Worker:: 16
+Thu Oct 11 16:07:34 2012 - Author:: 16
+Thu Oct 11 16:08:21 2012 - Invitation::delete() called with : DELETE FROM invitation WHERE expirationDate < CURRENT_DATE 
+Fri Oct 12 12:33:30 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, Test1234): SQLSTATE[28000] [1045] Access denied for user 'phpserver'@'localhost' (using password: YES)
+Fri Oct 12 12:33:40 2012 - WorkerLogin::password_authenticate(ecgero@emailxl.com, Test1234): SQLSTATE[28000] [1045] Access denied for user 'phpserver'@'localhost' (using password: YES)
+Fri Oct 12 12:35:02 2012 - WorkerLogin::password_authenticate(ecgero@comcast.net, Test1234): SQLSTATE[28000] [1045] Access denied for user 'phpserver'@'localhost' (using password: YES)

@@ -1,0 +1,4 @@
+-- $Id: shiftassignmentrecord.sql 1768 2012-09-07 00:00:50Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+--
+-- come back to later once shiftassignment stops churn
+--
