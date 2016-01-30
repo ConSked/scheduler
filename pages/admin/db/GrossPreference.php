@@ -1,4 +1,4 @@
-<?php  // $Id: GrossPreference.php 2128 2012-09-21 19:38:39Z ecgero $ Copyright (c) SwiftStation, LLC. All Rights Reserved.
+<?php  // $Id: GrossPreference.php 2128 2012-09-21 19:38:39Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');

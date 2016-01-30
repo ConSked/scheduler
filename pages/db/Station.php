@@ -1,4 +1,4 @@
-<?php  // $Id: Station.php 2436 2012-11-30 20:24:43Z ecgero $ Copyright (c) SwiftStation, LLC. All Rights Reserved.
+<?php  // $Id: Station.php 2436 2012-11-30 20:24:43Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');

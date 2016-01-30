@@ -1,4 +1,4 @@
-<?php  // $Id: JobScheduleView.php 2277 2012-09-26 17:09:24Z preston $ Copyright (c) SwiftJob, LLC. All Rights Reserved.
+<?php  // $Id: JobScheduleView.php 2277 2012-09-26 17:09:24Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/Job.php');

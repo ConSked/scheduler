@@ -1,4 +1,4 @@
-<?php  // $Id: JobPreference.php 2200 2012-09-22 18:26:20Z ecgero $ Copyright (c) SwiftStation, LLC. All Rights Reserved.
+<?php  // $Id: JobPreference.php 2200 2012-09-22 18:26:20Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');

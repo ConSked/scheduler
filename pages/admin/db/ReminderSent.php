@@ -1,4 +1,4 @@
-<?php  // $Id: ReminderSent.php 2328 2012-10-03 04:24:29Z cross $ Copyright (c) SwiftStation, LLC. All Rights Reserved.
+<?php  // $Id: ReminderSent.php 2328 2012-10-03 04:24:29Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');

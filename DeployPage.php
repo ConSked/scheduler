@@ -1,4 +1,4 @@
-<?php // $Id: DeployPage.php 2407 2012-10-22 20:22:42Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: DeployPage.php 2407 2012-10-22 20:22:42Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
     // NOTE WE DO NOT!!!! include('util/authenticate.php');
 session_start();
 ?>

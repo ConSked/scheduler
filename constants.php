@@ -1,4 +1,4 @@
-<?php  // $Id: constants.php 2418 2012-10-28 19:23:53Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: constants.php 2418 2012-10-28 19:23:53Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 define("DBHOST", "localhost");
 define("DBPORT", "3306");

@@ -1,4 +1,4 @@
-<?php // $Id: ShiftStatus.php 642 2012-06-10 19:26:11Z ecgero $ Copyright (c) SwiftStation, LLC. All Rights Reserved.
+<?php // $Id: ShiftStatus.php 642 2012-06-10 19:26:11Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');

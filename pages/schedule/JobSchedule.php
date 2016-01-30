@@ -1,4 +1,4 @@
-<?php  // $Id: JobSchedule.php 2396 2012-10-18 18:51:23Z ecgero $ Copyright (c) SwiftJob, LLC. All Rights Reserved.
+<?php  // $Id: JobSchedule.php 2396 2012-10-18 18:51:23Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('schedule/ScheduleException.php');

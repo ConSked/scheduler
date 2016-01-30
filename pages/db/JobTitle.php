@@ -1,4 +1,4 @@
-<?php  // $Id: JobTitle.php 2420 2012-10-30 18:59:11Z ecgero $ Copyright (c) SwiftStation, LLC. All Rights Reserved.
+<?php  // $Id: JobTitle.php 2420 2012-10-30 18:59:11Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');
