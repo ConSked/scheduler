@@ -1,4 +1,4 @@
-<?php // $Id: StationLockReportPage.php 2251 2012-09-24 20:02:19Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: StationLockReportPage.php 2251 2012-09-24 20:02:19Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateOrganizer.php');
 require_once('properties/constants.php');
 require_once('util/log.php');
@@ -13,7 +13,7 @@ $author = getWorkerAuthenticated();
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Station Lock Report Page</title>
+    <title><?php echo(SITE_NAME); ?> - Station Lock Report Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 
 </head>

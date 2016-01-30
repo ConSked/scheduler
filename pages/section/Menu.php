@@ -1,4 +1,4 @@
-<?php // $Id: Menu.php 2432 2003-01-07 20:27:30Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: Menu.php 2432 2003-01-07 20:27:30Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('swwat/gizmos/html.php');

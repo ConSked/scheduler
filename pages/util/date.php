@@ -1,4 +1,4 @@
-<?php  // $Id: date.php 1096 2012-07-19 08:12:47Z swash $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: date.php 1096 2012-07-19 08:12:47Z swash $ Copyright (c) ConSked, LLC. All Rights Reserved.
 class timePeriod
 {
 	public $startTime;

@@ -1,4 +1,4 @@
-<?php // $Id: ExpoData.php 2426 2003-01-02 20:17:58Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ExpoData.php 2426 2003-01-02 20:17:58Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('db/Expo.php');
 require_once('db/JobTitle.php');

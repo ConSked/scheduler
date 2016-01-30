@@ -1,4 +1,4 @@
-<?php // $Id: SchedulingReportList.php 2428 2003-01-07 18:56:20Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: SchedulingReportList.php 2428 2003-01-07 18:56:20Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/Job.php');

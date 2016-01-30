@@ -1,4 +1,4 @@
-<?php // $Id: WorkerEditPage.php 2434 2012-11-30 16:52:35Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerEditPage.php 2434 2012-11-30 16:52:35Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticate.php');
 require_once('properties/constants.php');
 require_once('util/log.php');
@@ -20,7 +20,7 @@ if ($author->workerid != $worker->workerid)
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Worker Edit Page</title>
+    <title><?php echo(SITE_NAME); ?> - Worker Edit Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 
     <script src="swwat/js/validate.js"></script>

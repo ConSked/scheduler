@@ -1,4 +1,4 @@
-<?php  // $Id: RoleEnum.php 505 2012-06-04 19:07:47Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: RoleEnum.php 505 2012-06-04 19:07:47Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 // NULL will represent no roles
 define("CREWMEMBER", "CREWMEMBER");

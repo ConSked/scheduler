@@ -1,4 +1,4 @@
--- $Id: locationgrosspreference.sql 2015 2012-09-17 22:27:37Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: locationgrosspreference.sql 2015 2012-09-17 22:27:37Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 -- shiftpreference is the table that records the preference on a per-station basis

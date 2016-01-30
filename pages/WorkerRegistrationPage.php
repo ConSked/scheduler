@@ -1,4 +1,4 @@
-<?php // $Id: WorkerRegistrationPage.php 2434 2012-11-30 16:52:35Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerRegistrationPage.php 2434 2012-11-30 16:52:35Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticate.php');
 
 require_once('db/Expo.php');
@@ -18,7 +18,7 @@ require_once('util/session.php');
 	<meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-	<title>SwiftShift - Worker Registration Page</title>
+	<title><?php echo(SITE_NAME); ?> - Worker Registration Page</title>
 	<link href="css/site.css" rel="stylesheet" type="text/css">
 </head>
 

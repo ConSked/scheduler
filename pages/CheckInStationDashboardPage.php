@@ -1,4 +1,4 @@
-<?php // $Id: CheckInStationDashboardPage.php 1706 2012-09-05 01:51:53Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: CheckInStationDashboardPage.php 1706 2012-09-05 01:51:53Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticate.php');
 
 require_once('properties/constants.php');
@@ -19,7 +19,7 @@ $author = getWorkerAuthenticated();
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Check-In Station Dashboard Page</title>
+    <title><?php echo(SITE_NAME); ?> - Check-In Station Dashboard Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 	<link href="jquery/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css">
 

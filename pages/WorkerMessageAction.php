@@ -1,4 +1,4 @@
-<?php // $Id: WorkerMessageAction.php 1958 2012-09-13 21:33:05Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerMessageAction.php 1958 2012-09-13 21:33:05Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticate.php');
 

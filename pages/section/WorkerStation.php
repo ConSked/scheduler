@@ -1,4 +1,4 @@
-<?php // $Id: WorkerStation.php 2363 2012-10-09 17:37:23Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerStation.php 2363 2012-10-09 17:37:23Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('swwat/gizmos/format.php');
 require_once('db/Expo.php');

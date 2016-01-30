@@ -1,4 +1,4 @@
-<?php // $Id: ShiftStatusData.php 2435 2012-11-30 19:56:05Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ShiftStatusData.php 2435 2012-11-30 19:56:05Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('db/ShiftStatus.php');
 require_once('properties/constants.php');

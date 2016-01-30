@@ -1,4 +1,4 @@
--- $Id: workerrole.sql 1350 2012-08-21 18:30:12Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: workerrole.sql 1350 2012-08-21 18:30:12Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 -- http://dev.mysql.com/doc/refman/5.0/en/set.html

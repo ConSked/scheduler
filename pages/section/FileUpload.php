@@ -1,4 +1,4 @@
-<?php // $Id: FileUpload.php 2122 2012-09-21 16:21:47Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: FileUpload.php 2122 2012-09-21 16:21:47Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('util/log.php');

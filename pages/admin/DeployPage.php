@@ -1,4 +1,4 @@
-<?php // $Id: DeployPage.php 2407 2012-10-22 20:22:42Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: DeployPage.php 2407 2012-10-22 20:22:42Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
     // NOTE WE DO NOT!!!! include('util/authenticate.php');
 session_start();
 ?>
@@ -9,7 +9,7 @@ session_start();
 	<meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-	<title>SwiftShift - Deploy Page</title>
+	<title><?php echo(SITE_NAME); ?> - Deploy Page</title>
 	<link href="pages/jquery/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css">
 
 	<script src="pages/jquery/jquery-1.7.2.min.js"></script>

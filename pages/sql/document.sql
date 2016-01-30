@@ -1,4 +1,4 @@
--- $Id: document.sql 1593 2012-08-30 23:40:40Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: document.sql 1593 2012-08-30 23:40:40Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 --

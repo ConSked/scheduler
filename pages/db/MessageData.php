@@ -1,4 +1,4 @@
-<?php  // $Id: MessageData.php 2310 2012-10-01 22:03:17Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved
+<?php  // $Id: MessageData.php 2310 2012-10-01 22:03:17Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');

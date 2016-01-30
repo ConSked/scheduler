@@ -1,4 +1,4 @@
-<?php // $Id: WorkerLoginChangePage.php 1357 2012-08-21 19:39:07Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerLoginChangePage.php 1357 2012-08-21 19:39:07Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 // custom isLoggedIn such that a temp login can change pw
 require_once('properties/constants.php');
 require_once('util/session.php');
@@ -20,7 +20,7 @@ if (!isset($_SESSION[AUTHENTICATED_TEMP]) && !isLoggedIn())
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Worker Login Change Page</title>
+    <title><?php echo(SITE_NAME); ?> - Worker Login Change Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 	<link href="jquery/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css">
 

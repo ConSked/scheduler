@@ -1,4 +1,4 @@
-<?php  // $Id: session.php 2119 2012-09-21 16:10:11Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: session.php 2119 2012-09-21 16:10:11Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 /*

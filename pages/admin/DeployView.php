@@ -20,7 +20,7 @@ $docRootLen = strlen($docRoot);
 	<meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-	<title>SwiftShift - Deploy View Page</title>
+	<title><?php echo(SITE_NAME); ?> - Deploy View Page</title>
 	<link href="css/site.css" rel="stylesheet" type="text/css">
 
     <!-- over-rides site.css if needed -->

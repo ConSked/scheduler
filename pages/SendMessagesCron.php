@@ -1,4 +1,4 @@
-<?php  // $Id: SendMessagesCron.php 2329 2012-10-03 16:18:45Z wnm $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: SendMessagesCron.php 2329 2012-10-03 16:18:45Z wnm $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');
@@ -84,7 +84,7 @@ foreach ($email_array as $email)
     $message .= "\n\n Your participation in the conference is appreciated.";
     //    $message .= "\n\n Please notify us at zzz-xxx-yyyy if unable to make your shift.";
     $message .= "\n\n Thank you,";
-    $message .= "\n\n Your SwiftExpo Team";
+    $message .= "\n\n Your ".SITE_NAME." Team";
     // ENDIT SIGNATURE BLOCK
 
 

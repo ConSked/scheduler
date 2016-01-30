@@ -1,4 +1,4 @@
-<?php // $Id: SchedulingReportPage.php 1774 2012-09-07 01:30:56Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: SchedulingReportPage.php 1774 2012-09-07 01:30:56Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateOrganizer.php');
 
 require_once('properties/constants.php');
@@ -19,7 +19,7 @@ $author = getWorkerAuthenticated();
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Scheduling Report Page</title>
+    <title><?php echo(SITE_NAME); ?> - Scheduling Report Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 	<link href="jquery/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css">
 

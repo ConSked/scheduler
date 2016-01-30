@@ -1,4 +1,4 @@
-<?php // $Id: ExpoCheckInPage.php 2434 2012-11-30 16:52:35Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ExpoCheckInPage.php 2434 2012-11-30 16:52:35Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateSupervisor.php'); // crew not allowed here
 
 require_once('properties/constants.php');
@@ -20,7 +20,7 @@ $author = getWorkerAuthenticated();
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Expo View Page</title>
+    <title><?php echo(SITE_NAME); ?> - Expo View Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 
     <script src="jquery/jquery-1.7.2.min.js"></script>

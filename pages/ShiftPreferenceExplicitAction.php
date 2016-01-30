@@ -1,4 +1,4 @@
-<?php // $Id: ShiftPreferenceExplicitAction.php 1800 2012-09-07 04:23:26Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ShiftPreferenceExplicitAction.php 1800 2012-09-07 04:23:26Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticate.php');
 
 require_once('db/ShiftPreference.php');

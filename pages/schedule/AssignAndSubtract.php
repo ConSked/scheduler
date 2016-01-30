@@ -1,4 +1,4 @@
-<?php  // $Id: AssignAndSubtract.php 2395 2012-10-17 19:37:37Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: AssignAndSubtract.php 2395 2012-10-17 19:37:37Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('db/ShiftAssignment.php');
 require_once('schedule/AbstractScheduler.php');

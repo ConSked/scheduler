@@ -1,4 +1,4 @@
-<?php // $Id: WorkerList.php 2429 2003-01-07 19:24:24Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerList.php 2429 2003-01-07 19:24:24Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/Worker.php');

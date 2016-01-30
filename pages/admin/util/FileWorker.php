@@ -1,4 +1,4 @@
-<?php  // $Id: FileWorker.php 1414 2012-08-24 20:54:34Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: FileWorker.php 1414 2012-08-24 20:54:34Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('swwat/gizmos/parse.php');
 require_once('util/log.php');

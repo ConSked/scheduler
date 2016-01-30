@@ -1,4 +1,4 @@
-<?php // $Id: CIWPreferences.php 2419 2012-10-29 18:01:08Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: CIWPreferences.php 2419 2012-10-29 18:01:08Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('db/Job.php');
 require_once('db/ShiftAssignment.php');

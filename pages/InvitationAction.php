@@ -1,4 +1,4 @@
-<?php // $Id: InvitationAction.php 2360 2012-10-09 01:14:19Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: InvitationAction.php 2360 2012-10-09 01:14:19Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticateOrganizer.php');
 

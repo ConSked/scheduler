@@ -1,4 +1,4 @@
-<?php  // $Id: clear.php 2421 2012-10-30 19:37:58Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: clear.php 2421 2012-10-30 19:37:58Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('util/log.php');

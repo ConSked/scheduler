@@ -1,4 +1,4 @@
-<?php // $Id: ShiftStatusEditAction.php 2435 2012-11-30 19:56:05Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ShiftStatusEditAction.php 2435 2012-11-30 19:56:05Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticate.php');
 

@@ -1,4 +1,4 @@
-<?php // $Id: SiteAdminPage.php 2433 2012-11-30 16:27:39Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: SiteAdminPage.php 2433 2012-11-30 16:27:39Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateOrganizer.php');
 require_once('properties/constants.php');
 require_once('util/log.php');
@@ -13,7 +13,7 @@ $author = getWorkerAuthenticated();
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Site Admin Page</title>
+    <title><?php echo(SITE_NAME); ?> - Site Admin Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 </head>
 

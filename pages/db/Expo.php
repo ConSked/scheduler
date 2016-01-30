@@ -1,4 +1,4 @@
-<?php  // $Id: Expo.php 2406 2012-10-22 19:26:26Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: Expo.php 2406 2012-10-22 19:26:26Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');

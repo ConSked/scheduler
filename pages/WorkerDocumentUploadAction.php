@@ -1,4 +1,4 @@
-<?php // $Id: WorkerDocumentUploadAction.php 1590 2012-08-30 23:34:03Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerDocumentUploadAction.php 1590 2012-08-30 23:34:03Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticate.php');
 

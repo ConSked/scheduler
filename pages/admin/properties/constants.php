@@ -1,13 +1,14 @@
-<?php  // $Id: constants.php 2418 2012-10-28 19:23:53Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: constants.php 2418 2012-10-28 19:23:53Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
-define("DBHOST", "MYDB_HOST");
-define("DBPORT", "MYDB_PORT");
-define("DATABASE", "MYDB_NAME");
-define("DBUSERNAME", "MYDB_USERNAME");
-define("DBPASSWORD", "MYDB_PASSWORD");
+define("DBHOST", "localhost");
+define("DBPORT", "3306");
+define("DATABASE", "consked1");
+define("DBUSERNAME", "cskeuser1");
+define("DBPASSWORD", "cskepass1");
 define("PREF", "NYCC");
 
-define("BASE_URL", "http://swiftshift.emailxl.com");
+define("SITE_NAME", "ConSked");
+define("BASE_URL", "https://consked-dev.healthcodex.com");
 define("LOGIN_URL",        BASE_URL . "/pages/WorkerLoginPage.php");
 define("REGISTRATION_URL", BASE_URL . "/pages/RegistrationPage.php");
 define("OPENREGISTRATION", "true");

@@ -1,4 +1,4 @@
-<?php  // $Id: mailSchedule.php 2120 2012-09-21 16:12:09Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: mailSchedule.php 2120 2012-09-21 16:12:09Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('db/Expo.php');
 require_once('db/ShiftAssignmentView.php');
@@ -62,7 +62,7 @@ function mailSchedule(Expo $expo, Worker $worker)
 
     $body .= sprintfSchedule($savList);
 
-    $body .= "\n\nSincerely,\nThe SwiftShift Team";
+    $body .= "\n\nSincerely,\nThe ".SITE_NAME." Team";
     $form = new FormMail($expo->title . " Schedule", $paramNames, $body);
     $form->sendForm($worker->email, $params);
 } // mailSchedule

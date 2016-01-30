@@ -1,4 +1,4 @@
-<?php  // $Id: FirstComeSoftLocationLocked.php 2259 2012-09-25 02:50:21Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: FirstComeSoftLocationLocked.php 2259 2012-09-25 02:50:21Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('schedule/FirstComeFirstServed.php');
 require_once('schedule/JobSchedule.php');

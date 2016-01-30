@@ -1,4 +1,4 @@
-<?php // $Id: WorkerLoginAction.php 2431 2003-01-07 20:24:44Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerLoginAction.php 2431 2003-01-07 20:24:44Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/Expo.php');

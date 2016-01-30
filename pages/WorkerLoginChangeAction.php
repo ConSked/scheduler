@@ -1,4 +1,4 @@
-<?php // $Id: WorkerLoginChangeAction.php 2431 2003-01-07 20:24:44Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerLoginChangeAction.php 2431 2003-01-07 20:24:44Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 // custom isLoggedIn such that a temp login can change pw
 require_once('properties/constants.php');

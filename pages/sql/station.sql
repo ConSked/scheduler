@@ -1,4 +1,4 @@
--- $Id: station.sql 1853 2012-09-08 01:24:14Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: station.sql 1853 2012-09-08 01:24:14Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 DROP TABLE IF EXISTS station CASCADE;

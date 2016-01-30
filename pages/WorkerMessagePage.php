@@ -1,4 +1,4 @@
-<?php // $Id: WorkerMessagePage.php 1951 2012-09-13 19:57:12Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerMessagePage.php 1951 2012-09-13 19:57:12Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticate.php');
 
 require_once('properties/constants.php');
@@ -19,7 +19,7 @@ require_once('util/session.php');
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Message Page</title>
+    <title><?php echo(SITE_NAME); ?> - Message Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 </head>
 

@@ -1,4 +1,4 @@
-<?php // $Id: ScheduleExpoDeleteAction.php 2297 2012-09-30 15:04:17Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ScheduleExpoDeleteAction.php 2297 2012-09-30 15:04:17Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateOrganizer.php');
 
 require_once('properties/constants.php');

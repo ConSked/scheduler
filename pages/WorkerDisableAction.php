@@ -1,4 +1,4 @@
-<?php // $Id: WorkerDisableAction.php 604 2012-06-07 21:11:57Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerDisableAction.php 604 2012-06-07 21:11:57Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateOrganizer.php');
 
 require_once('properties/constants.php');

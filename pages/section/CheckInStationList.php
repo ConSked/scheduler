@@ -1,4 +1,4 @@
-<?php // $Id: CheckInStationList.php 2402 2012-10-22 14:35:45Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: CheckInStationList.php 2402 2012-10-22 14:35:45Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 // DO NOT PUT PREFERENCE STUFF IN THIS FILE
 

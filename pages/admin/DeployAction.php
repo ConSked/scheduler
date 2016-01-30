@@ -1,4 +1,4 @@
-<?php // $Id: DeployAction.php 2393 2012-10-16 14:09:58Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: DeployAction.php 2393 2012-10-16 14:09:58Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 session_start();
 

@@ -1,4 +1,4 @@
--- $Id: createDB.sql 412 2012-05-29 16:41:09Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: createDB.sql 412 2012-05-29 16:41:09Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 
 DROP DATABASE IF EXISTS chronos;

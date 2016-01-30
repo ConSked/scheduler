@@ -1,4 +1,4 @@
-<?php  // $Id: mail.php 2119 2012-09-21 16:10:11Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: mail.php 2119 2012-09-21 16:10:11Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('util/log.php');
 
@@ -19,7 +19,7 @@ public function __construct($subject, array $paramNames, $body)
 public static function sendPasswordReset($to, $password)
 {
     // TODO - read subject, params, body from a properties file
-    $pwResetForm = new FormMail("Your SwiftShift account", array("CODE"), "Your account password has been reset to: CODE");
+    $pwResetForm = new FormMail("Your ".SITE_NAME." account", array("CODE"), "Your account password has been reset to: CODE");
     $pwResetForm->sendForm($to, array('CODE' => $password));
 } // sendPasswordReset
 
@@ -61,7 +61,7 @@ public static function send($to, $subject, $body)
 {
     try
     {
-		$headers = 'From: support@swiftexpos.com'."\r\n".'Reply-To: support@swiftexpos.com'."\r\n".'X-Mailer: PHP/' . phpversion();
+		$headers = 'From: support@consked.com'."\r\n".'Reply-To: support@consked.com'."\r\n".'X-Mailer: PHP/' . phpversion();
         mail($to, $subject, $body, $headers);
     }
     catch (Exception $ex)

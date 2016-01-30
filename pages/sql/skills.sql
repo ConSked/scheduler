@@ -1,4 +1,4 @@
--- $Id: skills.sql 1890 2012-09-11 14:37:08Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: skills.sql 1890 2012-09-11 14:37:08Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 -- @see doc/skillexample.html

@@ -1,4 +1,4 @@
-<?php // $Id: ExpoAssignAction.php 2424 2003-01-01 21:55:06Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ExpoAssignAction.php 2424 2003-01-01 21:55:06Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticateOrganizer.php');
 

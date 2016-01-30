@@ -1,4 +1,4 @@
-<?php  // $Id: AbstractScheduler.php 2292 2012-09-28 18:21:23Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: AbstractScheduler.php 2292 2012-09-28 18:21:23Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('util/log.php');
 require_once('db/ShiftAssignment.php');

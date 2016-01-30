@@ -1,4 +1,4 @@
-<?php // $Id: ExpoEditAction.php 751 2012-06-26 19:31:30Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ExpoEditAction.php 751 2012-06-26 19:31:30Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticate.php');
 

@@ -1,4 +1,4 @@
-<?php // $Id: WorkerData.php 2100 2012-09-19 05:09:40Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerData.php 2100 2012-09-19 05:09:40Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('util/log.php');
 require_once('util/SMSEnum.php');

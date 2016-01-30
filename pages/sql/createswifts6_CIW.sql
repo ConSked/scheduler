@@ -1,4 +1,4 @@
--- $Id: createswifts6_CIW.sql 2352 2012-10-05 23:26:47Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: createswifts6_CIW.sql 2352 2012-10-05 23:26:47Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 
 DROP DATABASE IF EXISTS swifts6_CIW;

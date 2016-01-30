@@ -1,4 +1,4 @@
-<?php // $Id: ExpoList.php 2430 2003-01-07 20:06:24Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ExpoList.php 2430 2003-01-07 20:06:24Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/Document.php');

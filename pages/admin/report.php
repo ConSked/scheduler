@@ -1,4 +1,4 @@
-<?php // $Id: report.php 2196 2012-09-22 18:07:50Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: report.php 2196 2012-09-22 18:07:50Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');

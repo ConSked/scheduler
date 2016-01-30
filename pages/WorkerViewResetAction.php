@@ -1,4 +1,4 @@
-<?php // $Id: WorkerViewResetAction.php 1345 2012-08-21 15:40:38Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerViewResetAction.php 1345 2012-08-21 15:40:38Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateOrganizer.php');
 
 require_once('properties/constants.php');

@@ -1,4 +1,4 @@
--- $Id: jobgrosspreference.sql 2013 2012-09-17 21:50:41Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: jobgrosspreference.sql 2013 2012-09-17 21:50:41Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 -- shiftpreference is the table that records the preference on a per-station basis

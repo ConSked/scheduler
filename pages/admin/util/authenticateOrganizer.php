@@ -1,4 +1,4 @@
-<?php  // $Id: authenticateOrganizer.php 1294 2012-08-09 23:44:40Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: authenticateOrganizer.php 1294 2012-08-09 23:44:40Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('util/session.php');
 require_once('db/Worker.php');

@@ -1,4 +1,4 @@
--- $Id: invitation.sql 1891 2012-09-11 14:49:41Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: invitation.sql 1891 2012-09-11 14:49:41Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 -- expoid - will set expoid upon invitation; if NULL, no expo defaulted

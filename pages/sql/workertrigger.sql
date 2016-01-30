@@ -1,4 +1,4 @@
--- $Id: workertrigger.sql 2103 2012-09-19 15:42:25Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: workertrigger.sql 2103 2012-09-19 15:42:25Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 -- worker trigger exists as a separate file because so many tables trigger off a isDisabled update, etc.

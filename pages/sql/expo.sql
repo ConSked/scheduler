@@ -1,4 +1,4 @@
--- $Id: expo.sql 2403 2012-10-22 18:38:30Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: expo.sql 2403 2012-10-22 18:38:30Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 -- http://dev.mysql.com/doc/refman/5.0/en/enum.html

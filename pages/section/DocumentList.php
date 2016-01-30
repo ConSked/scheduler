@@ -1,4 +1,4 @@
-<?php // $Id: DocumentList.php 1795 2012-09-07 04:13:14Z wnm $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: DocumentList.php 1795 2012-09-07 04:13:14Z wnm $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/Worker.php');

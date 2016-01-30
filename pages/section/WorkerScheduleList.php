@@ -1,4 +1,4 @@
-<?php // $Id: StationViewPage.php 819 2012-07-09 17:44:13Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: StationViewPage.php 819 2012-07-09 17:44:13Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/Expo.php');

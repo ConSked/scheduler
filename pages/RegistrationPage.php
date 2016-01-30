@@ -1,4 +1,4 @@
-<?php // $Id: RegistrationPage.php 1675 2012-09-02 20:52:07Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: RegistrationPage.php 1675 2012-09-02 20:52:07Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 //Don't make the user authenticate before registering!
 require_once('properties/constants.php');
 require_once('db/Expo.php');
@@ -62,7 +62,7 @@ if (is_null($worker)) // not case a
 	<meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-	<title>SwiftShift - Registration Page</title>
+	<title><?php echo(SITE_NAME); ?> - Registration Page</title>
 	<link href="css/site.css" rel="stylesheet" type="text/css">
 	<link href="jquery/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css">
 
@@ -89,7 +89,7 @@ include('section/header.php');
 <div id="main">
 
     <div id="registrationpage_welcome">
-        <h5>Welcome to SwiftShift Registration</h5>
+        <h5>Welcome to <?php echo(SITE_NAME); ?> Registration</h5>
         <ol>
             <li>Create your account.</li>
             <li>Change your password after receiving your confirmation email.</li>

@@ -1,4 +1,4 @@
-<?php /* $Id: LinkJob.php 1747 2012-09-06 18:49:16Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved. */ ?>
+<?php /* $Id: LinkJob.php 1747 2012-09-06 18:49:16Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved. */ ?>
 
 <?php
 require_once('db/Expo.php');

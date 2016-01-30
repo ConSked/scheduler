@@ -1,4 +1,4 @@
-<?php // $Id: InvitationFileUploadAction.php 1570 2012-08-30 18:33:43Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: InvitationFileUploadAction.php 1570 2012-08-30 18:33:43Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticateOrganizer.php');
 

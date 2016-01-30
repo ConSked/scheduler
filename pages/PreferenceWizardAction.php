@@ -1,4 +1,4 @@
-<?php // $Id: PreferenceWizardAction.php 2418 2012-10-28 19:23:53Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: PreferenceWizardAction.php 2418 2012-10-28 19:23:53Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticate.php');
 
 require_once('preferences/'.PREF.'Preferences.php');

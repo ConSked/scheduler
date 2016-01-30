@@ -1,4 +1,4 @@
-<?php  // $Id: SMSEnum.php 1285 2012-08-01 15:34:16Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: SMSEnum.php 1285 2012-08-01 15:34:16Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 /**
  * Data herein is taken from: http://www.emailtextmessages.com/

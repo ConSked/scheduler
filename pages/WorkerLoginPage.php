@@ -1,4 +1,4 @@
-<?php // $Id: WorkerLoginPage.php 2358 2012-10-09 00:32:12Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerLoginPage.php 2358 2012-10-09 00:32:12Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 // NOTE WE DO NOT!!!! include('util/authenticate.php');
 
 require_once('properties/constants.php');
@@ -16,7 +16,7 @@ logout();
 	<meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-	<title>SwiftShift - Worker Login Page</title>
+	<title><?php echo(SITE_NAME); ?> - Worker Login Page</title>
 	<link href="css/site.css" rel="stylesheet" type="text/css">
 </head>
 

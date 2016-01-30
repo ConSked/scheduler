@@ -1,4 +1,4 @@
--- $Id: shiftassignment.sql 2106 2003-01-01 06:10:02Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: shiftassignment.sql 2106 2003-01-01 06:10:02Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 DROP TABLE IF EXISTS shiftassignment CASCADE;

@@ -1,4 +1,4 @@
-<?php // $Id: ShiftStatusEditPage.php 2435 2012-11-30 19:56:05Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ShiftStatusEditPage.php 2435 2012-11-30 19:56:05Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticate.php');
 
 require_once('properties/constants.php');
@@ -19,7 +19,7 @@ $author = getWorkerAuthenticated();
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Shift Status Edit Page</title>
+    <title><?php echo(SITE_NAME); ?> - Shift Status Edit Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 </head>
 

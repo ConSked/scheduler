@@ -1,4 +1,4 @@
--- $Id: workerview.sql 1892 2012-09-11 14:55:24Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: workerview.sql 1892 2012-09-11 14:55:24Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 DROP VIEW IF EXISTS workerview CASCADE;

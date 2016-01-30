@@ -1,4 +1,4 @@
-<?php  // $Id: Invitation.php 2174 2012-09-22 16:57:00Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: Invitation.php 2174 2012-09-22 16:57:00Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');
@@ -104,8 +104,8 @@ private static function getInvitationForm($withCode)
         $body .= "&" . PARAM_WITHCODE . "=CODE\n\nYour registration code is: CODE\n\n";
         $paramNames[] = "CODE";
     }
-    $body .= "\n\nSincerely,\nThe SwiftShift Team";
-    return new FormMail("SwiftShift Expo Invitation", $paramNames, $body);
+    $body .= "\n\nSincerely,\nThe " . SITE_NAME . " Team";
+    return new FormMail(SITE_NAME . " Expo Invitation", $paramNames, $body);
 } // getInvitationForm
 
 public static function inviteWorkers(Expo $expo, $expirationDate, array $workerArray)
@@ -113,8 +113,8 @@ public static function inviteWorkers(Expo $expo, $expirationDate, array $workerA
     $body = "Hello FIRSTNAME,\n\nYou are invited to join EXPONAME.\nPlease login and proceed to the following page to register.\n\n"
         . BASE_URL . "/pages/WorkerRegistrationPage.php";
     $paramNames = array("FIRSTNAME", "EXPONAME"); // using NAME and EXPONAME leads to bad results; because NAME might get replaced first!
-    $body .= "\n\nSincerely,\nThe SwiftShift Team";
-    $welcomeForm = new FormMail("SwiftShift Expo Invitation", $paramNames, $body);
+    $body .= "\n\nSincerely,\nThe " . SITE_NAME . " Team";
+    $welcomeForm = new FormMail(SITE_NAME . " Expo Invitation", $paramNames, $body);
     $welcomeParams = array("EXPONAME" => $expo->title);
 
     $invite = new Invitation();

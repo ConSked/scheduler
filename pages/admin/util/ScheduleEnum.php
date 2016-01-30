@@ -1,4 +1,4 @@
-<?php  // $Id: ScheduleEnum.php 2289 2012-09-28 01:58:39Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: ScheduleEnum.php 2289 2012-09-28 01:58:39Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 define("ASSIGNANDSUBTRACT", "AssignAndSubtract");
 define("FIRSTCOMEFIRSTSERVE", "FirstComeFirstServed");

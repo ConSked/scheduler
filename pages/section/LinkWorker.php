@@ -1,4 +1,4 @@
-<?php /* $Id: LinkWorker.php 1536 2012-08-29 17:23:44Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved. */ ?>
+<?php /* $Id: LinkWorker.php 1536 2012-08-29 17:23:44Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved. */ ?>
 
 <?php
 require_once('db/Worker.php');

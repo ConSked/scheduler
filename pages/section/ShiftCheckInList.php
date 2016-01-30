@@ -1,4 +1,4 @@
-<?php // $Id: ShiftCheckInList.php 1930 2012-09-12 21:46:54Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ShiftCheckInList.php 1930 2012-09-12 21:46:54Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/Worker.php');

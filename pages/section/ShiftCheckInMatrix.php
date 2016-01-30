@@ -1,4 +1,4 @@
-<?php // $Id: ShiftCheckInMatrix.php 1706 2012-09-05 01:51:53Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ShiftCheckInMatrix.php 1706 2012-09-05 01:51:53Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/StationJob.php');

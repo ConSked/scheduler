@@ -1,4 +1,4 @@
-<?php  // $Id: WorkerScheduleView.php 2234 2012-09-24 14:58:45Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: WorkerScheduleView.php 2234 2012-09-24 14:58:45Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/dbutil.php');

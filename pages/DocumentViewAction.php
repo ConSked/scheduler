@@ -1,4 +1,4 @@
-<?php // $Id: DocumentViewAction.php 1635 2012-08-31 21:22:03Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: DocumentViewAction.php 1635 2012-08-31 21:22:03Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticate.php');
 

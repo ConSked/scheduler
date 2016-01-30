@@ -2,12 +2,13 @@
 
 define("DBHOST", "localhost");
 define("DBPORT", "3306");
-define("DATABASE", "swiftweb1");
-define("DBUSERNAME", "swebuser1");
-define("DBPASSWORD", "swebpass1");
+define("DATABASE", "consked1");
+define("DBUSERNAME", "cskeuser1");
+define("DBPASSWORD", "cskepass1");
 define("PREF", "NYCC");
 
-define("BASE_URL", "http://swiftweb-dev.healthcodex.com");
+define("SITE_NAME", "ConSked");
+define("BASE_URL", "https://consked-dev.healthcodex.com");
 define("LOGIN_URL",        BASE_URL . "/pages/WorkerLoginPage.php");
 define("REGISTRATION_URL", BASE_URL . "/pages/RegistrationPage.php");
 define("OPENREGISTRATION", "true");

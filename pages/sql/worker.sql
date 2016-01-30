@@ -1,4 +1,4 @@
--- $Id: worker.sql 2109 2012-09-20 13:50:29Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: worker.sql 2109 2012-09-20 13:50:29Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 DROP TABLE IF EXISTS worker CASCADE;

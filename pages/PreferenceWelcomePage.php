@@ -1,4 +1,4 @@
-<?php // $Id: PreferenceWelcomePage.php 2418 2012-10-28 19:23:53Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: PreferenceWelcomePage.php 2418 2012-10-28 19:23:53Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticate.php');
 
 require_once('preferences/'.PREF.'Preferences.php');
@@ -25,7 +25,7 @@ $expo = getExpoCurrent();
 	<meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-	<title>SwiftShift - Shift Preference Welcome</title>
+	<title><?php echo(SITE_NAME); ?> - Shift Preference Welcome</title>
 	<link href="css/site.css" rel="stylesheet" type="text/css">
 </head>
 

@@ -1,4 +1,4 @@
-<?php  // $Id: crypt.php 1573 2012-08-30 19:18:14Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: crypt.php 1573 2012-08-30 19:18:14Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 /**
  * This module contains utility functions for

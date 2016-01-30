@@ -1,4 +1,4 @@
-<?php // $Id: WorkerEditAction.php 914 2012-07-14 13:26:32Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerEditAction.php 914 2012-07-14 13:26:32Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticate.php');
 

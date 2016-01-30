@@ -1,4 +1,4 @@
--- $Id: job.sql 2105 2012-09-20 00:07:43Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: job.sql 2105 2012-09-20 00:07:43Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 DROP TABLE IF EXISTS jobtitle CASCADE;

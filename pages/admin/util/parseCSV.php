@@ -1,12 +1,12 @@
-<?php  // $Id: parseCSV.php 1406 2012-08-24 16:37:52Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: parseCSV.php 1406 2012-08-24 16:37:52Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
-class SwiftShiftException extends Exception
+class RegularException extends Exception
 {
-} // SwiftShiftException
+} // RegularException
 
-class ParseCSVSwiftShiftException extends SwiftShiftException
+class ParseCSVException extends RegularException
 {
-} // ParseCSVSwiftShiftException
+} // ParseCSVException
 
 function parseCSV($fileString)
 {
@@ -20,7 +20,7 @@ function parseCSV($fileString)
         $numCommas = count($words);
         if ($numCommas < 1)
         {
-            throw new ParseCSVSwiftShiftException("file has no commas at all");
+            throw new ParseCSVException("file has no commas at all");
         }
         break; // we have a basic count to compare
     } // $line
@@ -34,7 +34,7 @@ function parseCSV($fileString)
             // first validate each line has the same number of commas
             if (count($words) != $numCommas)
             {
-                throw new ParseCSVSwiftShiftException("files lines have mismatching number of commas in line $lineNumber - $line");
+                throw new ParseCSVException("files lines have mismatching number of commas in line $lineNumber - $line");
             }
             // second trim each word and add to array
             $wordArray = array();

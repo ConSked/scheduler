@@ -1,4 +1,4 @@
-<?php  // $Id: ReviewEnum.php 1646 2012-09-01 15:28:43Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: ReviewEnum.php 1646 2012-09-01 15:28:43Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 define("UNREVIEWED", "UNREVIEWED");
 define("APPROVED", "APPROVED");

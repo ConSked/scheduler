@@ -1,4 +1,4 @@
-<?php // $Id: ScheduleExpoPage.php 2434 2012-11-30 16:52:35Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ScheduleExpoPage.php 2434 2012-11-30 16:52:35Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateOrganizer.php');
 
 require_once('properties/constants.php');
@@ -17,7 +17,7 @@ require_once('util/ScheduleEnum.php');
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Schedule Expo Page</title>
+    <title><?php echo(SITE_NAME); ?> - Schedule Expo Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 	<link href="jquery/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css">
 

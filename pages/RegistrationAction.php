@@ -1,4 +1,4 @@
-<?php // $Id: RegistrationAction.php 2411 2012-10-24 17:13:36Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: RegistrationAction.php 2411 2012-10-24 17:13:36Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 // NOT include('util/authenticate.php');
 
 require_once('properties/constants.php');
@@ -185,12 +185,12 @@ foreach ($expoArray as $expo)
 }
 
 //Send out a confirmation e-mail
-$welcomeForm = new FormMail("SwiftShift Registration Confirmation",
+$welcomeForm = new FormMail(SITE_NAME." Registration Confirmation",
     array("FIRSTNAME", "LOGINURL"),
-    "Hello FIRSTNAME,\nWelcome to SwiftShift!\n\n"
+    "Hello FIRSTNAME,\nWelcome to ".SITE_NAME."!\n\n"
     . "If you forget your password, simply enter your e-mail address on the login page and click the \"Reset Password\" button.\n\n"
     . "Login Page: LOGINURL."
-    . "\n\nSincerely,\nThe SwiftShift Team");
+    . "\n\nSincerely,\nThe ".SITE_NAME." Team");
 $welcomeForm->sendForm($worker->email,
     array("FIRSTNAME" => $worker->firstName, "LOGINURL" => LOGIN_URL));
 

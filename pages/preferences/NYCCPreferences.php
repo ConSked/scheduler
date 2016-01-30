@@ -1,4 +1,4 @@
-<?php // $Id: NYCCPreferences.php 2419 2012-10-29 18:01:08Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: NYCCPreferences.php 2419 2012-10-29 18:01:08Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('db/GrossPreference.php');
 require_once('db/JobPreference.php');

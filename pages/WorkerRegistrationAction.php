@@ -1,4 +1,4 @@
-<?php // $Id: WorkerRegistrationAction.php 1498 2012-08-27 01:28:30Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: WorkerRegistrationAction.php 1498 2012-08-27 01:28:30Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticate.php');
 
 require_once('properties/constants.php');

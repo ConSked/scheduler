@@ -9,7 +9,7 @@ session_start();
 	<meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-	<title>SwiftShift - Deploy Page</title>
+	<title>Consked - Deploy Page</title>
 	<link href="pages/jquery/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css">
 
 	<script src="pages/jquery/jquery-1.7.2.min.js"></script>

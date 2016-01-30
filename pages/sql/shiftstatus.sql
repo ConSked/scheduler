@@ -1,4 +1,4 @@
--- $Id: shiftstatus.sql 2379 2012-10-14 20:44:04Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: shiftstatus.sql 2379 2012-10-14 20:44:04Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 DROP TABLE IF EXISTS shiftstatus CASCADE;

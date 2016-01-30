@@ -1,11 +1,11 @@
-<?php  // $Id: FiveDegreesCSV.php 1680 2012-09-03 21:48:34Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php  // $Id: FiveDegreesCSV.php 1680 2012-09-03 21:48:34Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('swwat/gizmos/parse.php');
 require_once('util/FileWorker.php');
 require_once('util/log.php');
 require_once('util/parseCSV.php');
 
-class FiveDegreesException extends ParseCSVSwiftShiftException  {  }
+class FiveDegreesException extends ParseCSVException  {  }
 
 class FiveDegreesCSV extends FileWorker // extends Worker?? - better to keep separate
 {

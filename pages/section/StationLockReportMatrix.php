@@ -1,4 +1,4 @@
-<?php // $Id: StationLockReportMatrix.php 1751 2012-09-06 20:47:58Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: StationLockReportMatrix.php 1751 2012-09-06 20:47:58Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('properties/constants.php');
 require_once('db/Worker.php');

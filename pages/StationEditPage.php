@@ -1,4 +1,4 @@
-<?php // $Id: StationEditPage.php 2437 2012-12-11 19:34:03Z ecgero $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: StationEditPage.php 2437 2012-12-11 19:34:03Z ecgero $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateOrganizer.php');
 
 require_once('properties/constants.php');
@@ -16,7 +16,7 @@ require_once('util/session.php');
     <meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-    <title>SwiftShift - Station Edit Page</title>
+    <title><?php echo(SITE_NAME); ?> - Station Edit Page</title>
     <link href="css/site.css" rel="stylesheet" type="text/css">
 	<link href="jquery/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css">
 

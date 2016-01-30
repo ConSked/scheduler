@@ -1,4 +1,4 @@
-<?php // $Id: SendMessageAction.php 921 2012-07-14 16:03:23Z preston $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: SendMessageAction.php 921 2012-07-14 16:03:23Z preston $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 include('util/authenticate.php');
 

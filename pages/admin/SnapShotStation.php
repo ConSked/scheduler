@@ -1,4 +1,4 @@
-<?php // $Id: SnapShotStation.php 2227 2012-09-23 21:12:29Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: SnapShotStation.php 2227 2012-09-23 21:12:29Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('report.php');
 require_once('db/dbutil.php');
@@ -58,7 +58,7 @@ if (isset($_POST[PARAM_SAVE]))
 	<meta http-equiv="expires" content="31 Dec 2011 12:00:00 GMT"/>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-	<title>SwiftShift - Snap Shot Worker Page</title>
+	<title><?php echo(SITE_NAME); ?> - Snap Shot Worker Page</title>
 	<link href="css/site.css" rel="stylesheet" type="text/css">
 
     <!-- over-rides site.css if needed -->

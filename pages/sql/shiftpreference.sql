@@ -1,4 +1,4 @@
--- $Id: shiftpreference.sql 2127 2012-09-21 19:23:40Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: shiftpreference.sql 2127 2012-09-21 19:23:40Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 -- desirePercent is above 0

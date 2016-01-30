@@ -1,4 +1,4 @@
-<?php // $Id: ScheduleExpoAction.php 2298 2012-10-01 19:16:12Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: ScheduleExpoAction.php 2298 2012-10-01 19:16:12Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 include('util/authenticateOrganizer.php');
 
 require_once('properties/constants.php');

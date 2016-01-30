@@ -1,4 +1,4 @@
-<?php // $Id: StationData.php 1912 2012-09-12 07:28:58Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+<?php // $Id: StationData.php 1912 2012-09-12 07:28:58Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 
 require_once('db/Expo.php');
 require_once('db/Job.php');

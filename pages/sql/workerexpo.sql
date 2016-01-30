@@ -1,4 +1,4 @@
--- $Id: workerexpo.sql 1896 2012-09-11 21:24:30Z cross $ Copyright (c) SwiftExpo, LLC. All Rights Reserved.
+-- $Id: workerexpo.sql 1896 2012-09-11 21:24:30Z cross $ Copyright (c) ConSked, LLC. All Rights Reserved.
 --
 --
 DROP TABLE IF EXISTS workerexpo CASCADE;
