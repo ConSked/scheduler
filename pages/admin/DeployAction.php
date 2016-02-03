@@ -6,7 +6,7 @@ $constants_file = "constants.php";
 $constants_dir = "pages/properties/";
 
 // values in constants.php
-$URL = "http://dev.consked.com";
+$URL = "URL_DUMMY";
 $timezone = "America/Chicago";
 $DBHost = "MYDB_HOST";
 $DBPort = "MYDB_PORT";
