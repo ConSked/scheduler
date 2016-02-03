@@ -3,7 +3,7 @@
         <tr>
           <td height="184" scope="col">
             <span style="color:#0000aa">
-              <br /><b>SwiftShift<br /></b>
+              <br /><b>ConSked<br /></b>
             </span>
             <p />
             <i>We are taking on beta customers now. Please fill out the contact us page.</i>
@@ -23,7 +23,7 @@
         <tr>
           <td height="184" scope="col">
             <span style="color:#0000aa">
-              <b>SwiftShift<br /></b>
+              <b>ConSked<br /></b>
             </span>
           </td>
           <td></td>

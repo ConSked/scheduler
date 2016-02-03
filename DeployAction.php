@@ -6,7 +6,7 @@ $constants_file = "constants.php";
 $constants_dir = "pages/properties/";
 
 // values in constants.php
-$URL = "http://swiftshift.emailxl.com";
+$URL = "https://dev.consked.com";
 $timezone = "America/Chicago";
 $DBHost = "MYDB_HOST";
 $DBPort = "MYDB_PORT";

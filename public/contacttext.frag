@@ -57,13 +57,13 @@ END;
 ?>
               <br/>
               <p>
-              SwiftShift Headquarters
-              <br/>Matt Dabney, President
+              ConSked Headquarters
+              <br/>Richard Cross, President
               <br/>William Murray, CTO
               <br/>345 N. Canal #404
               <br/>Chicago, IL 60606
               <br/>773-457-7238
-              <br/>312-993-0363
+              <br/>312-224-1752
               </p>
             </div>
           </td>

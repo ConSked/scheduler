@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<!-- Copyright 2012 SwiftShift. All rights reserved. -->
-<title>Contact the SwiftShift Team</title>
+<!-- Copyright 2012 ConSked. All rights reserved. -->
+<title>Contact the ConSked Team</title>
 <meta name="Author" content="Richard Cross" />
-<meta name="description" content="SwiftShift makes scheduling events easy." />
-<meta name="keywords" content="SwiftShift" />
+<meta name="description" content="ConSked makes scheduling events easy." />
+<meta name="keywords" content="ConSked" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
 

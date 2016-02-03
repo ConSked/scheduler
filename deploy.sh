@@ -32,7 +32,7 @@ echo "  removing old application files"
 #
 #
 # copy php files, etc to the DOCUMENT_ROOT
-echo "  deploying SwiftShift application"
+echo "  deploying ConSked application"
 cp -r ${SRC_DIR}/src/web/pages       ${TARGET_DIR}
 cp -r ${SRC_DIR}/src/web/db          ${TARGET_DIR}/pages
 cp -r ${SRC_DIR}/src/web/preferences ${TARGET_DIR}/pages
@@ -45,7 +45,7 @@ cp ${SRC_DIR}/src/web/pages/favicon.ico       ${TARGET_DIR}
 echo "  making index.php"
 cp ${TARGET_DIR}/pages/WorkerLoginPage.php ${TARGET_DIR}/pages/index.php
 #
-echo "  deploying SwiftShift public site"
+echo "  deploying ConSked public site"
 cp -r ${SRC_DIR}/src/public     ${TARGET_DIR}
 #
 echo "  deploying 3rd party libs"
@@ -55,7 +55,7 @@ cp -r ${SRC_DIR}/src/web/swwat      ${TARGET_DIR}/pages
 echo "  deploying sql files"
 cp -r ${SRC_DIR}/src/db/sql      ${TARGET_DIR}/pages
 #cp ${SRC_DIR}/src/db/scripts/db/scripts/dbschema.php.hosted ${TARGET_DIR}/pages/dbschema.php
-echo "  deploying SwiftShift admin"
+echo "  deploying ConSked admin"
 cp -r ${SRC_DIR}/src/web/admin       ${TARGET_DIR}/pages/admin
 cp -r ${SRC_DIR}/src/web/db          ${TARGET_DIR}/pages/admin
 cp -r ${SRC_DIR}/src/web/properties  ${TARGET_DIR}/pages/admin

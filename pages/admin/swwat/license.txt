@@ -1,2 +1,2 @@
 // $Id: license.txt 146 2012-05-14 21:18:34Z preston $ Copyright (c) Preston C. Urka. All Rights Reserved.
-// A limited license to use the SWWAT library functions is granted to ConSked, LLC. as part of the SwiftShift web application.
+// A limited license to use the SWWAT library functions is granted to ConSked, LLC. as part of the ConSked web application.

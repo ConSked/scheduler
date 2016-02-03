@@ -55,7 +55,7 @@ $fileString[] = "document.sql";
 $fileString[] = "skills.sql";
 $fileString[] = "workertrigger.sql";
 $fileString[] = "remindersent.sql";
-$fileString[] = "zzzorganizerhosted.sql";
+$fileString[] = "default.sql";
 //
 $dir = "sql/"; // change as appropriate for deployment
 

@@ -2,13 +2,13 @@
 
 define("DBHOST", "localhost");
 define("DBPORT", "3306");
-define("DATABASE", "consked1");
-define("DBUSERNAME", "cskeuser1");
-define("DBPASSWORD", "cskepass1");
+define("DATABASE", "consked");
+define("DBUSERNAME", "cskeuser");
+define("DBPASSWORD", "cskepass");
 define("PREF", "NYCC");
 
 define("SITE_NAME", "ConSked");
-define("BASE_URL", "http://consked-dev.healthcodex.com");
+define("BASE_URL", "https://dev.consked.com");
 define("LOGIN_URL",        BASE_URL . "/pages/WorkerLoginPage.php");
 define("REGISTRATION_URL", BASE_URL . "/pages/RegistrationPage.php");
 define("OPENREGISTRATION", "true");

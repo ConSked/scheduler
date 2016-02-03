@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<!-- Copyright 2012 SwiftShift. All rights reserved. -->
-<title>Contact the SwiftShift Team</title>
+<!-- Copyright 2012 ConSked. All rights reserved. -->
+<title>Contact the ConSked Team</title>
 <meta name="Author" content="Richard Cross" />
-<meta name="description" content="SwiftShift makes scheduling events easy." />
-<meta name="keywords" content="SwiftShift" />
+<meta name="description" content="ConSked makes scheduling events easy." />
+<meta name="keywords" content="ConSked" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
 
@@ -60,7 +60,7 @@ function genericLogin(form)
 
 //--------------------------------------------------------------------------------//
 ?>
-      <img src="images/SwiftShift_Web_-_tag_line.original.jpg" width="760" height="200" alt="SwiftShift logo" />
+      <img src="images/ConSked_Web_-_tag_line.original.jpg" width="760" height="200" alt="ConSked logo" />
     </td>
   </tr>
   <tr>
@@ -133,13 +133,13 @@ END;
 ?>
               <br/>
               <p>
-              SwiftShift Headquarters
-              <br/>Matt Dabeny, President
+              ConSked Headquarters
+              <br/>Richard Cross, President
               <br/>William Murray, CTO
               <br/>345 N. Canal #404
               <br/>Chicago, IL 60606
               <br/>773-457-7238
-              <br/>312-993-0363
+              <br/>312-224-1752
               </p>
             </div>
           </td>
@@ -152,7 +152,7 @@ END;
         <tr>
           <td height="184" scope="col">
             <span style="color:#0000aa">
-              <br /><b>SwiftShift<br /></b>
+              <br /><b>ConSked<br /></b>
             </span>
             <p />
             <i>We are taking on beta customers now. Please fill out the contact us page.</i>
@@ -172,7 +172,7 @@ END;
         <tr>
           <td height="184" scope="col">
             <span style="color:#0000aa">
-              <b>SwiftShift<br /></b>
+              <b>ConSked<br /></b>
             </span>
           </td>
           <td></td>
@@ -183,7 +183,7 @@ END;
   </tr>
   <tr>
     <td height="19" colspan="2" align="center" bgcolor="#e1f4fb">
-      <div style="font-size:9px">SwiftShift - 345 N Canal St. #404, Chicago, IL 60606 - Phone: 773-457-7238 - Copyright 2012 SwiftShift</div>
+      <div style="font-size:9px">ConSked - 345 N Canal St. #404, Chicago, IL 60606 - Phone: 773-457-7238 - Copyright 2012 ConSked</div>
     </td>
   </tr>
 </table>
@@ -191,7 +191,7 @@ END;
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-25707149-1']);
-  _gaq.push(['_setDomainName', '.swiftshift.com']);
+  _gaq.push(['_setDomainName', '.consked.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {
