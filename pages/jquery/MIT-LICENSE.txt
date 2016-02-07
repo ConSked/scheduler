@@ -1115,7 +1115,7 @@ __This will also be bold__
       <h3>Miscellaneous</h3>
       <p>Images</p>
       <pre>
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/images/intlogo.png)
 Format: ![Alt Text](url)
 </pre>
      <p>Links</p>

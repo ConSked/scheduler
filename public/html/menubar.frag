@@ -9,7 +9,7 @@
 
 //--------------------------------------------------------------------------------//
 ?>
-      <img src="images/SwiftShift_Web_-_tag_line.original.jpg" width="760" height="200" alt="SwiftShift logo" />
+      <img src="images/int-need-tagline.jpg" width="760" height="200" alt="ConSked logo" />
     </td>
   </tr>
   <tr>

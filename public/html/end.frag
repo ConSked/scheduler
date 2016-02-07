@@ -1,7 +1,7 @@
   </tr>
   <tr>
     <td height="19" colspan="2" align="center" bgcolor="#e1f4fb">
-      <div style="font-size:9px">SwiftShift - 345 N Canal St. #404, Chicago, IL 60606 - Phone: 773-457-7238 - Copyright 2012 SwiftShift</div>
+      <div style="font-size:9px">ConSked - 345 N Canal St. #404, Chicago, IL 60606 - Phone: 312-224-1752 - Copyright 2016 ConSked</div>
     </td>
   </tr>
 </table>
@@ -9,7 +9,7 @@
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-25707149-1']);
-  _gaq.push(['_setDomainName', '.swiftshift.com']);
+  _gaq.push(['_setDomainName', '.consked.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {

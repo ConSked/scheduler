@@ -2,6 +2,6 @@
 
 <div id="header">
 	<!-- Begin Header Image -->
-	<img src="images/logo.png" width="344" height="84" alt="" />
+	<img src="images/intlogo.png" width="344" height="84" alt="" />
 	<!-- End Header Image -->
 </div><!-- header -->
