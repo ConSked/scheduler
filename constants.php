@@ -8,7 +8,7 @@ define("DBPASSWORD", "cskepass");
 define("PREF", "NYCC");
 
 define("SITE_NAME", "ConSked");
-define("BASE_URL", "https://dev.consked.com");
+define("BASE_URL", "https://consked.com");
 define("LOGIN_URL",        BASE_URL . "/pages/WorkerLoginPage.php");
 define("REGISTRATION_URL", BASE_URL . "/pages/RegistrationPage.php");
 define("OPENREGISTRATION", "true");
