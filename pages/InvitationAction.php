@@ -10,7 +10,7 @@ require_once('swwat/gizmos/parse.php');
 require_once('db/Invitation.php');
 
 
-// $expo = getExpoCurrent();
+$expo = getExpoCurrent();
 // minor housekeeping
 unset($_SESSION[PARAM_UPLOAD]);
 unset($_SESSION[PARAM_MESSAGE]);
@@ -18,9 +18,10 @@ unset($_SESSION[PARAM_STOPTIME]);
 unset($_SESSION[PARAM_WITHCODE]);
 unset($_SESSION[PARAM_UNIQUE]);
 
-//$expirationDate = swwat_parse_date(html_entity_decode($_POST[PARAM_STOPTIME]));
-//$withCode = (0 == strcmp(PARAM_WITHCODE, swwat_parse_string(html_entity_decode($_POST[PARAM_WITHCODE]))));
-//$uniqueCode = (0 == strcmp(PARAM_UNIQUE, swwat_parse_string(html_entity_decode($_POST[PARAM_UNIQUE]))));
+
+$expirationDate = swwat_parse_date(html_entity_decode($_POST[PARAM_STOPTIME]));
+$withCode = (0 == strcmp(PARAM_WITHCODE, swwat_parse_string(html_entity_decode($_POST[PARAM_WITHCODE]))));
+$uniqueCode = (0 == strcmp(PARAM_UNIQUE, swwat_parse_string(html_entity_decode($_POST[PARAM_UNIQUE]))));
 // invite or upload file button?
 $invite = isset($_POST[PARAM_SAVE]);
 $upload = isset($_POST[PARAM_UPLOAD]);
@@ -32,11 +33,13 @@ if ($invite)
 {
     // get emails typed in
     $emails = swwat_parse_string(html_entity_decode($_POST[PARAM_EMAIL]));
+    echo($emails."<br>");
     logMessage("message", $emails);
     // parse via whitespace
     // send emails
     $unknownArray = array(); // set from UI
     Invitation::inviteUnknown($expo, $expirationDate, $unknownArray, $withCode, $uniqueCode);
+    exit;
     header('Location: InvitationPage.php');
     include('InvitationPage.php');
 }

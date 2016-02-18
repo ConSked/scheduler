@@ -153,7 +153,9 @@ public static function inviteUnknown(Expo $expo, $expirationDate, array $invitat
             $welcomeParams["CODE"] = $invite->code;
         }
         $welcomeParams["EMAIL"] = $invite->email;
-        $invite->insert($welcomeForm, $welcomeParams);
+        echo("<pre>");print_r($welcomeForm);echo("</pre>");
+        echo("<pre>");print_r($welcomeParams);echo("</pre>");
+        //$invite->insert($welcomeForm, $welcomeParams);
     } // $invite
 
     $invite = NULL;
