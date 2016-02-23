@@ -45,6 +45,7 @@ public function sendForm($to, array $params = NULL)
                 $sendBody = str_replace($param, $params[$param], $sendBody);
             }
         }
+       
         FormMail::send($to, $this->subject, $sendBody);
     }
     catch (Exception $ex)

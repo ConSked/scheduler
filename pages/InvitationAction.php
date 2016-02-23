@@ -33,13 +33,12 @@ if ($invite)
 {
     // get emails typed in
     $emails = swwat_parse_string(html_entity_decode($_POST[PARAM_EMAIL]));
-    echo($emails."<br>");
+    $emails = preg_replace('/\s+/', ':', $emails);
     logMessage("message", $emails);
     // parse via whitespace
+    $invitationArray = Invitation::loadEmails($emails);
     // send emails
-    $unknownArray = array(); // set from UI
-    Invitation::inviteUnknown($expo, $expirationDate, $unknownArray, $withCode, $uniqueCode);
-    exit;
+    Invitation::inviteUnknown($expo, $expirationDate, $invitationArray, $withCode, $uniqueCode);
     header('Location: InvitationPage.php');
     include('InvitationPage.php');
 }
@@ -47,6 +46,7 @@ else
 if ($upload) // upload file
 {
     // move defaults from _POST to _SESSION
+    $_SESSION[PARAM_UPLOADFILETYPE] = swwat_parse_string("5 degrees");
     $_SESSION[PARAM_STOPTIME] = $_POST[PARAM_STOPTIME];
     $_SESSION[PARAM_WITHCODE] = $_POST[PARAM_WITHCODE];
     $_SESSION[PARAM_UNIQUE] = $_POST[PARAM_UNIQUE];

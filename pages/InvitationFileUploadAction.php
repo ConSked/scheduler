@@ -49,7 +49,7 @@ if (UPLOAD_ERR_OK != $_FILES[$name]['error'])
 $expirationDate = swwat_parse_date(html_entity_decode($_SESSION[PARAM_STOPTIME]));
 $withCode = (0 == strcmp(PARAM_WITHCODE, $_SESSION[PARAM_WITHCODE]));
 $uniqueCode = (0 == strcmp(PARAM_UNIQUE, $_SESSION[PARAM_UNIQUE]));
-// $uploadFileType = $_SESSION[PARAM_UPLOADFILETYPE]; // currently MUST = 5degrees
+$uploadFileType = $_SESSION[PARAM_UPLOADFILETYPE]; // currently MUST = 5degrees
 $existingWorkers = Worker::selectExpo($expo->expoid);
 $checkWorkers = array();
 foreach ($existingWorkers as $worker)
@@ -67,6 +67,7 @@ try
         $fileWorkerArray = FiveDegreesCSV::parse($fileString);
         $fileString = NULL; // gc hint
     }
+    exit;
 
     $workerArray = array();
     $unknownArray = array();

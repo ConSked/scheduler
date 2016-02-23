@@ -10,6 +10,8 @@ class ParseCSVException extends RegularException
 
 function parseCSV($fileString)
 {
+    echo("<pre>");print_r($fileString);echo("</pre>>");
+
     $lines = explode("\n", $fileString);
     $lineArray = array();
 

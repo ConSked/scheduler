@@ -45,6 +45,22 @@ public function worker()
     return $w;
 } // worker
 
+public function loadEmails($emails)
+{
+    $emailArray = explode(':', $emails);
+
+    $output = array();
+    foreach ($emailArray as $email)
+    {
+        $invite = new Invitation;
+        $invite->email = $email;
+
+        array_push($output, $invite);
+    }
+    return $output;
+} // loadEmails
+
+
 private function fixDates()
 {
     if (is_string($this->expirationDate))
@@ -153,9 +169,7 @@ public static function inviteUnknown(Expo $expo, $expirationDate, array $invitat
             $welcomeParams["CODE"] = $invite->code;
         }
         $welcomeParams["EMAIL"] = $invite->email;
-        echo("<pre>");print_r($welcomeForm);echo("</pre>");
-        echo("<pre>");print_r($welcomeParams);echo("</pre>");
-        //$invite->insert($welcomeForm, $welcomeParams);
+        $invite->insert($welcomeForm, $welcomeParams);
     } // $invite
 
     $invite = NULL;
