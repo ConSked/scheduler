@@ -10,43 +10,33 @@ class ParseCSVException extends RegularException
 
 function parseCSV($fileString)
 {
-    echo("<pre>");print_r($fileString);echo("</pre>>");
-
-    $lines = explode("\n", $fileString);
-    $lineArray = array();
-
-    $numCommas = -1;
-    foreach ($lines as $line)
+    $numCommas = substr_count($fileString, ',');
+    if ($numCommas == 0)
     {
-        $words = explode(",", $line);
-        $numCommas = count($words);
-        if ($numCommas < 1)
-        {
-            throw new ParseCSVException("file has no commas at all");
-        }
-        break; // we have a basic count to compare
-    } // $line
+        throw new ParseCSVException("file has no commas at all");
+    }
+
+    $lines = str_getcsv($fileString, "\n");
+
     $lineNumber = 0;
-    foreach ($lines as $line)
+    $countWords = 0;
+    $lineArray = array();
+    foreach($lines as $line)
     {
-        if (strlen($line) > 0) // ignore empty (last) line
+        $lineNumber += 1;
+        $words = str_getcsv($line);
+        if ($lineNumber == 1)
         {
-            $words = explode(",", $line);
-            $lineNumber += 1;
-            // first validate each line has the same number of commas
-            if (count($words) != $numCommas)
-            {
-                throw new ParseCSVException("files lines have mismatching number of commas in line $lineNumber - $line");
-            }
-            // second trim each word and add to array
-            $wordArray = array();
-            foreach ($words as $word)
-            {
-                $wordArray[] = trim($word);
-            } // $word
-            $lineArray[] = $wordArray;
+            $countWords = count($words);
         }
-    } // $line
+
+        if (count($words) != $countWords)
+        {
+            throw new ParseCSVException("files lines have mismatching number of commas in line $lineNumber - $line");
+        }
+
+        array_push($lineArray, $words);
+    }
 
     return $lineArray;
 } // parseCSV($fileString)

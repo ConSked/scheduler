@@ -145,6 +145,7 @@ if (is_null($expo))
     setExpoCurrent($expo); // paranoia about some included section
 }
 $_SESSION[PARAM_LIST] = NULL;
+unset($_SESSION[PARAM_MESSAGE]);
 
 //setStationCurrent(NULL);
 
