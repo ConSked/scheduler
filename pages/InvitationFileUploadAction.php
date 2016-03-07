@@ -24,7 +24,7 @@ function newInviteFromFile(FileWorker $fileWorker) // throws PDOException
     $invite->email = $fileWorker->email;
     $invite->phone = $fileWorker->phone;
     $invite->firstName = $fileWorker->firstName;
-    $invite->middleName = $fileWorker->middleName;
+    //$invite->middleName = $fileWorker->middleName;
     $invite->lastName = $fileWorker->lastName;
     return $invite;
 } // newInviteFromFile
@@ -67,7 +67,6 @@ try
         $fileWorkerArray = FiveDegreesCSV::parse($fileString);
         $fileString = NULL; // gc hint
     }
-    exit;
 
     $workerArray = array();
     $unknownArray = array();
