@@ -14,7 +14,9 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<?php do_action( 'twentytwelve_credits' ); ?>
-			<a href="http://dev1.consked.com" title="dev1.consked.com" class="site-name"><?php printf( 'dev1.consked.com' ); ?></a> &copy; 2016
+            <?php $url = esc_url(home_url()); ?>
+            <?php $purl = parse_url($url); ?>
+            <a href="<?php echo $url ?>" title="<?php echo $purl[host] ?>" class="site-name"><?php printf( 'consked.com' ); ?></a> &copy; 2016
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
