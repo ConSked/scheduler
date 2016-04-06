@@ -41,7 +41,7 @@
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</td>
             <td style="vertical-align: middle; text-align: middle">
-                <form action="pages/index.php" method="post">
+                <form action="/pages/index.php" method="post">
                     <input type="submit" value="Login Page" style="color: black">
                 </form>
                 </div>
