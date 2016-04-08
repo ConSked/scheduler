@@ -56,7 +56,7 @@ function createWorkerDataHTMLRows(Worker $worker, $formName, $isDisabledFlag = T
     echo "</td></tr>\n";
 
 //    echo '  <tr><td class="fieldTitle">Texting Service:</td><td>';
-//    swwat_createSelect(PARAM_SMS_SERVICE, SMSEnum::$OPTION, "none", $isDisabledFlag);
+//    swwat_createSelect(0, PARAM_SMS_SERVICE, SMSEnum::$OPTION, "none", $isDisabledFlag);
 //    echo "</td></tr>\n";
 
     if (FALSE != $code)

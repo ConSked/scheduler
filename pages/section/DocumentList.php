@@ -56,7 +56,7 @@ function makeDocumentListHTMLRow(Document $document, $position, $isEditable, $is
         // repeat if Organizer: Delete only from UnReviewed
         // if Worker: UnReviewed->Delete
         $options = ReviewEnum::getList($isOrganizer, $document->reviewStatus);
-        swwat_createSelect(PARAM_STATUSTYPE, $options, $document->reviewStatus, !$isEditable);
+        swwat_createSelect(0, PARAM_STATUSTYPE, $options, $document->reviewStatus, !$isEditable);
         echo "&nbsp;";
         swwat_createInputSubmit(is_null($worker) ? PARAM_LASTNAME : "", ($isOrganizer ? "Change Status" : "Delete"));
         echo "</form>";
