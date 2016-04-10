@@ -15,7 +15,7 @@
 		<div class="site-info">
 			<?php do_action( 'twentytwelve_credits' ); ?>
             <?php $url = esc_url(home_url()); ?>
-            <?php $purl = parse_url($url); ?> 
+            <?php $purl = parse_url($url); ?>
 			<a href="<?php echo $url ?>" title="<?php echo $purl[host] ?>" class="site-name"><?php printf( 'consked.com' ); ?></a> &copy; 2016
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

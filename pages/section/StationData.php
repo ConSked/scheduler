@@ -118,7 +118,7 @@ function createJobDataHTMLRows(StationJob $job, $formName, $showDates, $isDisabl
     }
     $_POST[PARAM_JOB]                = $job->jobTitle;
     echo "  <tr><td class='fieldTitle'>Job:</td>\n<td>";
-    swwat_createSelect(PARAM_JOB, $jobOptionArray, $_POST[PARAM_JOB], $isDisabledFlag);
+    swwat_createSelect(0, PARAM_JOB, $jobOptionArray, $_POST[PARAM_JOB], $isDisabledFlag);
     echo "</td></tr>\n";
 
     echo "  <tr><td class='fieldTitle'>Min Crew:</td>\n<td>";

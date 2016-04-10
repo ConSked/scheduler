@@ -119,36 +119,36 @@ function swwat_createInputValidateTextAreaLength($param, $formname, $len, $butto
     }
 } // swwat_createInputValidateTextAreaLength
 
-function swwat_createOption($option, $selected)
+function swwat_createOption($spaces, $option, $selected)
 {
-    echo '<option value="', $option[0], '"';
+    swwat_spaces($spaces); echo "<option value=\"", $option[0], "\"";
     if ($selected)
     {
-        echo ' selected="selected"';
+        echo " selected=\"selected\"";
     }
-    echo '>', $option[1], '</option>';
+    echo ">", $option[1], "</option>\n";
 } // swwat_createOption
 
 // $optionArray = 2D array {{name, value}, {name, value}, ...}
-function swwat_createSelect($param, $optionArray, $defaultOption, $isDisabledFlag = FALSE)
+function swwat_createSelect($spaces, $param, $optionArray, $defaultOption, $isDisabledFlag = FALSE)
 {
     $selected = $defaultOption;
 	if (isset($_POST[$param]))
 	{
         $selected = $_POST[$param];
     }
-    echo '<select id="', $param, '" name="', $param, '" ';
+    swwat_spaces($spaces+3); echo "<select id=\"", $param, "\" name=\"", $param, "\"";
     if ($isDisabledFlag)
     {
-        echo ' disabled="disabled" ';
+        echo " disabled=\"disabled\"";
     }
-    echo '>';
+    echo ">\n";
     for ($j = 0; $j < count($optionArray); $j++)
     {
         $option = $optionArray[$j];
-        swwat_createOption($option, (0 == strcmp($selected, $option[0])));
+        swwat_createOption($spaces+6, $option, (0 == strcmp($selected, $option[0])));
     } // $j
-    echo '</select>';
+    swwat_spaces($spaces+3); echo "</select>\n";
 } // swwat_createSelect
 
 function swwat_createRadioOption($name, $option, $type, $selected, $isDisabledFlag)
@@ -183,5 +183,11 @@ function swwat_createRadioSelect($param, $optionArray, $type, $defaultOption, $i
         swwat_createRadioOption($param, $option, $type, (0 == strcmp($selected, $option[0])), $isDisabledFlag);
     } // $j
 } // swwat_createRadioSelect
+
+function swwat_spaces($num)
+{
+    echo(str_repeat(' ', $num));
+    return;
+} // swwat_spaces
 
 ?>
