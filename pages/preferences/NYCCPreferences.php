@@ -247,9 +247,10 @@ function wizardActionContent($author, $expo)
 
 	$jp = new JobPreference;
 	$jp->workerid = $author->workerid;
-	for ($k = 0; $k < 20; $k++)
+    $count_jobs = $jp->number_jobs;
+	for ($k = 0; $k < $count_jobs; $k++)
 	{
-		$field = 'job'.($k + 1);
+		$field = 'job'.($k+1);
 		if (isset($locationTest[$k]))
 		{
 			$jp->$field = $locationTest[$k];
@@ -282,7 +283,8 @@ function wizardActionContent($author, $expo)
 
 	$tp = new TimePreference;
 	$tp->workerid = $author->workerid;
-	for ($k = 0; $k < 20; $k++)
+    $count_shifts = $tp->number_shifts;
+	for ($k = 0; $k < $count_shifts; $k++)
 	{
 		$field = 'shift'.($k+1);
 		if (isset($dateSpanTest[$k]))
