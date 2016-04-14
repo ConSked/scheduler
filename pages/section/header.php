@@ -8,21 +8,15 @@
             </td>
             <td style="vertical-align: middle; text-align: center; width: 34%">
                 <div style="width: 468pt">
-                    <script type="text/javascript">
-                        <!--
-                        google_ad_client = "pub-8102958922361899";
-                        //google_ad_width = 728;
-                        //google_ad_height = 90;
-                        //google_ad_format = "728x90_as";
-                        google_ad_width = 468;
-                        google_ad_height = 60;
-                        google_ad_format = "468x60_as";
-                        google_ad_type = "text_image";
-                        google_ad_channel = "";
-                        -->
+                    <script async
+                        src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
                     </script>
-                    <script type="text/javascript"
-                        src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:468px;height:60px"
+                        data-ad-client = "pub-8102958922361899">
+                    </ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
                 </div>
             </td>
