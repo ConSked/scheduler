@@ -57,7 +57,7 @@ include('section/header.php');
 	<div id="workerdocument_fileupload">
 		<table>
             <tr><td class="fieldTitle">Document Type:</td>
-                <td><?php swwat_createSelect(PARAM_DOCTYPE, $docTypeOption, $defaultOption, TRUE); ?></td>
+                <td><?php swwat_createSelect(0, PARAM_DOCTYPE, $docTypeOption, $defaultOption, TRUE); ?></td>
             </tr>
             <tr><td></td><td></td></tr>
             <tr><td class="fieldTitle">Upload File:</td>

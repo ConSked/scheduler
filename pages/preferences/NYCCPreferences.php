@@ -105,18 +105,20 @@ function format_shift($shift)
 	return ($day.', '.$start.' - '.$stop);
 }
 
-function createPreferenceHTMLRows($label, $value, $paramPrefix, $unavailable = FALSE)
+function createPreferenceHTMLRows($spaces, $label, $value, $paramPrefix, $unavailable = FALSE)
 {
-	echo "<tr>\n";
-	echo '<th class="rowTitle">', $label, "</th>\n";
-	echo '<td><select name="', $paramPrefix, '">';
+	swwat_spaces($spaces); echo "<tr>\n";
+	swwat_spaces($spaces+3); echo "<th class=\"rowTitle\">", $label, "</th>\n";
+	swwat_spaces($spaces+3); echo "<td>\n";
+	swwat_spaces($spaces+6); echo "<select name=\"", $paramPrefix, "\">\n";
 	for($selectIndex = 0; $selectIndex < 11; $selectIndex++)
 	{
 		$checked = ($value == $selectIndex*10) ? ' selected' : '';
-		echo '<option value="',$selectIndex*10,'"' , $checked , '>',$selectIndex,'</option>', "\n";
+		swwat_spaces($spaces+9); echo "<option value=\"",$selectIndex*10,"\"" , $checked , ">",$selectIndex,"</option>", "\n";
 	}
-	echo "</select></td>";
-	echo "</tr>\n";
+	swwat_spaces($spaces+6); echo "</select>\n";
+	swwat_spaces($spaces+3); echo "</td>\n";
+	swwat_spaces($spaces); echo "</tr>\n";
 }
 
 function wizardPageContent($author, $expo)
@@ -163,9 +165,9 @@ function wizardPageContent($author, $expo)
 		}
 		else
 		{
-			$default = NULL;
+			$default = 50;
 		}
-		createPreferenceHTMLRows($dateSpanFormatted, $default, PARAM_DATETIME . $k, TRUE);
+		createPreferenceHTMLRows(12, $dateSpanFormatted, $default, PARAM_DATETIME . $k, TRUE);
 	}
 	echo "         </table>\n";
 	echo "      </td>\n";
@@ -182,9 +184,9 @@ function wizardPageContent($author, $expo)
 		}
 		else
 		{
-			$default = NULL;
+			$default = 50;
 		}
-		createPreferenceHTMLRows($locationList[$k], $default, PARAM_LOCATION . $k, FALSE);
+		createPreferenceHTMLRows(12, $locationList[$k], $default, PARAM_LOCATION . $k, FALSE);
 	}
 	echo "         </table>\n";
 	echo "      </td>\n";
@@ -201,8 +203,7 @@ function wizardPageContent($author, $expo)
 	{
 		$optionArray[$k] = array(($maxhours - $k), "&nbsp;".($maxhours - $k)."&nbsp;");
 	}
-	swwat_createSelect(PARAM_MAXHOURS, $optionArray, $maxhours);
-	echo "\n";
+	swwat_createSelect(6, PARAM_MAXHOURS, $optionArray, $maxhours);
 	echo "      </td>\n";
 	echo "   </tr>\n";
 	echo "</table>\n";
@@ -246,9 +247,10 @@ function wizardActionContent($author, $expo)
 
 	$jp = new JobPreference;
 	$jp->workerid = $author->workerid;
-	for ($k = 0; $k < 50; $k++)
+    $count_jobs = $jp->number_jobs;
+	for ($k = 0; $k < $count_jobs; $k++)
 	{
-		$field = 'job'.($k + 1);
+		$field = 'job'.($k+1);
 		if (isset($locationTest[$k]))
 		{
 			$jp->$field = $locationTest[$k];
@@ -281,7 +283,8 @@ function wizardActionContent($author, $expo)
 
 	$tp = new TimePreference;
 	$tp->workerid = $author->workerid;
-	for ($k = 0; $k < 50; $k++)
+    $count_shifts = $tp->number_shifts;
+	for ($k = 0; $k < $count_shifts; $k++)
 	{
 		$field = 'shift'.($k+1);
 		if (isset($dateSpanTest[$k]))

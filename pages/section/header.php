@@ -16,7 +16,7 @@
                         data-ad-client = "pub-8102958922361899">
                     </ins>
                     <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
+                        (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
                 </div>
             </td>
