@@ -1,5 +1,14 @@
 <?php // $Id: format.php 1071 2012-07-18 02:28:26Z preston $ Copyright (c) Preston C. Urka. All Rights Reserved.
 
+function swwat_format_epoch($date)
+{
+    return date_format($date, 'U');
+} // swwat_format_epoch
+
+function swwat_format_timezone($date)
+{
+    return date_format($date, 'e');
+} // swwat_format_timezone
 
 function swwat_format_usdate($date)
 {
@@ -41,13 +50,46 @@ function swwat_format_isodatetime($date)
     return date_format($date, 'Y-m-d H:i:s  T');
 } // swwat_format_isodatetime
 
+function swwat_format_preferencesdate($date)
+{
+    return date_format($date, 'M j (D)');
+} // swwat_format_preferencesdate
+
 function swwat_format_expodate($startTime, $stopTime)
 {
-	$date1 = date_format($startTime, 'M j');
-	$date2 = date_format($stopTime, 'M j');
-	$year  = date_format($startTime, 'Y');
+  $year1 = date_format($startTime, 'Y');
+  $month1 = date_format($startTime, 'M');
+  $day1 = date_format($startTime, 'j');
 
-	return $date1.' - '.$date2.', '.$year;
+  $year2 = date_format($stopTime, 'Y');
+  $month2 = date_format($stopTime, 'M');
+  $day2 = date_format($stopTime, 'j');
+
+  if ($year1 == $year2)
+  {
+    if ($month1 == $month2)
+    {
+      if ($day1 == $day2)
+      {
+        $expodate = $month1." ".$day1.", ".$year1;
+      }
+      else
+      {
+        $expodate = $month1." ".$day1." - ".$day2.", ".$year1;
+      }
+    }
+    else
+    {
+      $expodate = $month1." ".$day1." - ".$month2." ".$day2.", ".$year1;
+    }
+  }
+  else
+  {
+    $expodate = $month1." ".$day1.", ".$year1." - ".$month2." ".$day2.", ".$year2;
+  }
+
+
+	return $expodate;
 } // swwat_format_expodate
 
 function swwat_format_shift($startTime, $stopTime)

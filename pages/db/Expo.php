@@ -33,7 +33,7 @@ public $newUserAddedOnRegistration = TRUE;
 
 public function titleString()
 {
-    return $this->title . "  " . swwat_format_expodate($this->startTime, $this->stopTime);
+    return $this->title . "  (" . swwat_format_expodate($this->startTime, $this->stopTime) . ")";
 } // descriptionString
 
 private function fixDates()
