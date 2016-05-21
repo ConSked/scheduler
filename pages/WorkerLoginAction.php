@@ -84,9 +84,9 @@ try
 				{
 					setExpoCurrent($expoList[0]);
 
-					header('Location: PreferenceWelcomePage.php');
-					include('PreferenceWelcomePage.php');
-					return;
+				  header('Location: PreferenceWelcomePage.php');
+    			include('PreferenceWelcomePage.php');
+    			return;
 				}
 				else
 				{

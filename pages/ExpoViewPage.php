@@ -259,13 +259,13 @@ include('section/header.php');
 		<?php
 			if (!$author->isOrganizer() && !$expo->isPast())
 			{
-                echo '<form method="GET" name="expoviewpage_preferences_form" action="PreferenceWelcomePage.php">', "\n";
-                echo '<input class="fieldValue" type="Submit" value="Set Shift Preferences"/></form><br/>', "\n";
+        echo '<form method="GET" name="expoviewpage_preferences_form" action="PreferenceWelcomePage.php">', "\n";
+        echo '<input class="fieldValue" type="Submit" value="Set Shift Preferences"/></form><br/>', "\n";
 			}
 			if ($author->isOrganizer() && !$expo->isPast())
 			{
-                echo '<form method="GET" name="expoviewpage_newstation_form" action="StationEditPage.php">';
-                echo '<input class="fieldValue" name="' . PARAM_CREATE . '" type="Submit" value="Create New Station"/></form><br/>', "\n";
+        echo '<form method="GET" name="expoviewpage_newstation_form" action="StationEditPage.php">';
+        echo '<input class="fieldValue" name="' . PARAM_CREATE . '" type="Submit" value="Create New Station"/></form><br/>', "\n";
 			}
 			createStationHTMLList($expo, $stationList);
 		?>

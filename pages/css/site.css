@@ -167,3 +167,72 @@ hr {
 .sectionTitle {
 	background-color: LightGreen;
 }
+
+.prefs {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.prefs td {
+  border: 2px solid white;
+}
+
+.prefs td.green:hover, td.red:hover {
+  outline: 2px solid black;
+}
+
+.center {
+  text-align: center;
+}
+
+.blue {
+  color: white;
+  background-color: DodgerBlue;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.green {
+  color: white;
+  text-align: center;
+  background-color: YellowGreen;
+}
+
+.greenOutline {
+  color: white;
+  text-align: center;
+  background-color: YellowGreen;
+  outline: 2px solid black;
+}
+
+.red {
+  color: white;
+  text-align: center;
+  background-color: Tomato;
+}
+
+.redOutline {
+  background-color: Tomato;
+  color: white;
+  text-align: center;
+  outline: 2px solid black;
+}
+
+.gray {
+  color: white;
+  text-align: center;
+  background-color: LightGray;
+}
+
+.blueButton {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: white;
+  background-color: DodgerBlue;
+}
+
+.blueButton:hover {
+  background-color: SkyBlue;
+}

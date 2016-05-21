@@ -48,7 +48,7 @@ function expoListStartRow(Expo $expo, $position, $isOrganizer)
     }
     else if (!$expo->isPast()) // isWorker TRUE
     {
-    	echo "<a href='PreferenceWelcomePage.php?".PARAM_LIST_INDEX."=".$position."'>".htmlspecialchars($expo->title)."</a>";
+      echo "<a href='PreferenceWelcomePage.php?".PARAM_LIST_INDEX."=".$position."'>".htmlspecialchars($expo->title)."</a>";
     }
     else
     {
