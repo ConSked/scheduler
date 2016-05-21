@@ -17,6 +17,9 @@
             <?php $url = esc_url(home_url()); ?>
             <?php $purl = parse_url($url); ?>
 			<a href="<?php echo $url ?>" title="<?php echo $purl[host] ?>" class="site-name"><?php printf( 'consked.com' ); ?></a> &copy; 2016
+      <span class="alignright">
+        <a href="<?php echo $url ?>/privacy" title="privacy statement" class="site-name"><?php printf( 'Privacy Statement' ); ?></a>
+      </span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
