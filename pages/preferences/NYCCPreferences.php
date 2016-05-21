@@ -153,7 +153,7 @@ function wizardPageContent($author, $expo)
 	echo "      <td valign=\"top\">\n";
 	echo "         <table>\n";
 	echo "            <tr><th class=\"rowTitle2\" colspan=\"5\">Shift</th></tr>\n";
-	$tp = TimePreference::selectID($author->workerid);
+	$tp = TimePreference::selectID($author->workerid, $expo->expoid);
 	for ($k = 0; $k < count($dateSpanList); $k++)
 	{
 		$dateSpanFormatted = format_shift($dateSpanList[$k]);
@@ -174,7 +174,7 @@ function wizardPageContent($author, $expo)
 	echo "      <td valign=\"top\">\n";
 	echo "         <table>\n";
 	echo "            <tr><th class=\"rowTitle2\" colspan=\"5\">Job</th></tr>\n";
-	$jp = JobPreference::selectID($author->workerid);
+	$jp = JobPreference::selectID($author->workerid, $expo->expoid);
 	for ($k = 0; $k < count($locationList); $k++)
 	{
 		if (!is_null($jp))
@@ -247,6 +247,7 @@ function wizardActionContent($author, $expo)
 
 	$jp = new JobPreference;
 	$jp->workerid = $author->workerid;
+  $jp->expoid = $expo->expoid;
     $count_jobs = $jp->number_jobs;
 	for ($k = 0; $k < $count_jobs; $k++)
 	{
@@ -261,7 +262,7 @@ function wizardActionContent($author, $expo)
 		}
 	}
 
-	$test = JobPreference::selectID($author->workerid);
+	$test = JobPreference::selectID($author->workerid, $expo->expoid);
 	if (!is_null($test))
 	{
 		$jp->update();
@@ -283,6 +284,7 @@ function wizardActionContent($author, $expo)
 
 	$tp = new TimePreference;
 	$tp->workerid = $author->workerid;
+  $tp->expoid = $expo->expoid;
     $count_shifts = $tp->number_shifts;
 	for ($k = 0; $k < $count_shifts; $k++)
 	{
@@ -297,7 +299,7 @@ function wizardActionContent($author, $expo)
 		}
 	}
 
-	$test = TimePreference::selectID($author->workerid);
+	$test = TimePreference::selectID($author->workerid, $expo->expoid);
 	if (!is_null($test))
 	{
 		$tp->update();

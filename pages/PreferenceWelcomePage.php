@@ -7,6 +7,8 @@ require_once('section/Menu.php');
 require_once('util/log.php');
 require_once('util/session.php');
 
+$author = getWorkerAuthenticated();
+
 if (isset($_REQUEST[PARAM_LIST_INDEX]))
 {
     $expo = getParamItem(PARAM_LIST, PARAM_LIST_INDEX);
@@ -27,6 +29,9 @@ $expo = getExpoCurrent();
 
 	<title><?php echo(SITE_NAME); ?> - Shift Preference Welcome</title>
 	<link href="css/site.css" rel="stylesheet" type="text/css">
+  <script src="https://fb.me/react-15.0.1.js"></script>
+  <script src="https://fb.me/react-dom-15.0.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 </head>
 
 <body>
@@ -43,8 +48,15 @@ include('section/header.php');
 <div id="preferencewelcomepage">
 
 <?php
-	welcomePageTitle($expo->title, 1);
-	welcomePageContent();
+  welcomePageTitle($expo->title, 1);
+  if (PREF == 'New')
+  {
+	  welcomePageContent($author, $expo);
+  }
+  else
+  {
+	  welcomePageContent();
+  }
 	welcomePageNavi();
 ?>
 
