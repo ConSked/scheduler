@@ -98,7 +98,7 @@ include('section/header.php');
             <tr><td>
             <?php
             // ignore an empty row
-            if ($author->isOrganizer())
+            if ($author->isOrganizer() && ($author->workerid != $worker->workerid))
             {
                 swwat_createInputSubmit(PARAM_UPDATEROLE, "Update Roles");
             }
@@ -111,7 +111,7 @@ include('section/header.php');
 
     <div id="workerviewpage_disable">
         <table><tr><td>
-        <?php if ($author->isOrganizer())
+        <?php if ($author->isOrganizer() && ($author->workerid != $worker->workerid))
             {
                 if ($worker->isDisabled) /* enable*/
                 {

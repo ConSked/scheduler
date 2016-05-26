@@ -45,6 +45,22 @@ public function worker()
     return $w;
 } // worker
 
+public function loadEmails($emails)
+{
+    $emailArray = explode(':', $emails);
+
+    $output = array();
+    foreach ($emailArray as $email)
+    {
+        $invite = new Invitation;
+        $invite->email = $email;
+
+        array_push($output, $invite);
+    }
+    return $output;
+} // loadEmails
+
+
 private function fixDates()
 {
     if (is_string($this->expirationDate))

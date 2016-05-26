@@ -73,7 +73,6 @@ if (!isset($_POST[PARAM_SAVE])) // set defaults
     $expDate = $expo->startTime; // default
     $_POST[PARAM_WITHCODE] = PARAM_WITHCODE;
     unset($_POST[PARAM_UNIQUE]);
-    unset($_SESSION[PARAM_MESSAGE]);
 }
 else
 {
@@ -107,10 +106,16 @@ include('section/header.php');
                 <td><input type="text" name="<?php echo PARAM_STOPTIME; ?>" value="<?php echo swwat_format_isodate($expDate); ?>" size="25"/></td>
             </tr>
             <tr><td class="fieldTitle">Require generic code:</td>
-                <td><?php swwat_createRadioOption(PARAM_WITHCODE, array(PARAM_WITHCODE, ""), SWWAT_CHECKBOX, $withCode, FALSE); ?></td>
+                <td>
+                    <?php swwat_createInputHidden(PARAM_WITHCODE, FALSE); ?>
+                    <?php swwat_createRadioOption(PARAM_WITHCODE, array(PARAM_WITHCODE, ""), SWWAT_CHECKBOX, $withCode, FALSE); ?>
+                </td>
             </tr>
             <tr><td class="fieldTitle">Make code unique:</td>
-                <td><?php swwat_createRadioOption(PARAM_UNIQUE, array(PARAM_UNIQUE, ""), SWWAT_CHECKBOX, $uniqueCode, FALSE); ?></td>
+                <td>
+                    <?php swwat_createInputHidden(PARAM_UNIQUE, FALSE); ?>
+                    <?php swwat_createRadioOption(PARAM_UNIQUE, array(PARAM_UNIQUE, ""), SWWAT_CHECKBOX, $uniqueCode, FALSE); ?>
+                </td>
             </tr>
 			<tr><td><?php swwat_createInputSubmit(PARAM_UPLOAD, "Upload File"); ?></td></tr>
             <tr><td></td></tr>

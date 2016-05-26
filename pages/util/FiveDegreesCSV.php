@@ -33,11 +33,8 @@ public function getError() // hopefully returns NULL for no error
 private static function searchHeader($needle, $haystack)
 {
     $index = array_search($needle, $haystack);
-    if (FALSE == $index)
-    {
-        $index = array_search('"' . $needle . '"', $haystack);
-    }
-    if (FALSE == $index)
+
+    if (FALSE === $index)
     {
         throw new FiveDegreesException("5 Degrees CSV file is missing $needle header");
     }
@@ -56,7 +53,7 @@ public static function parse($fileString)
     $lineArray = parseCSV($fileString);
 
     // get the indices per header line
-    $header = $lineArray[0];
+    $header = array_map('stripslashes', $lineArray[0]);
     $firstNameIndex = self::searchHeader("FirstName", $header);
     $lastNameIndex = self::searchHeader("LastName", $header);
     $tagsIndex = self::searchHeader("Tags", $header);

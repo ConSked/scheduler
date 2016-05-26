@@ -45,6 +45,7 @@ public function sendForm($to, array $params = NULL)
                 $sendBody = str_replace($param, $params[$param], $sendBody);
             }
         }
+       
         FormMail::send($to, $this->subject, $sendBody);
     }
     catch (Exception $ex)
@@ -62,6 +63,10 @@ public static function send($to, $subject, $body)
     try
     {
 		$headers = 'From: support@consked.com'."\r\n".'Reply-To: support@consked.com'."\r\n".'X-Mailer: PHP/' . phpversion();
+        //echo("<pre>to: ");print_r($to);echo("</pre>");
+        //echo("<pre>subject: ");print_r($subject);echo("</pre>");
+        //echo("<pre>body: ");print_r($body);echo("</pre>");
+        //echo("<pre>headers: ");print_r($headers);echo("</pre>");
         mail($to, $subject, $body, $headers);
     }
     catch (Exception $ex)

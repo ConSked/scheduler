@@ -66,7 +66,7 @@ include('section/header.php');
             <table>
             <tr>
                 <td class='fieldValueFirst'>Algorithm</td>
-                <td class='fieldValue'><?php swwat_createSelect(PARAM_SCHEDULE_ALGO, ScheduleEnum::$OPTIONS, $algorithm, FALSE); ?></td>
+                <td class='fieldValue'><?php swwat_createSelect(0, PARAM_SCHEDULE_ALGO, ScheduleEnum::$OPTIONS, $algorithm, FALSE); ?></td>
             </tr>
             </table>
 

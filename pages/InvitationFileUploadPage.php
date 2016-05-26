@@ -76,6 +76,9 @@ include('section/header.php');
             <tr><td class="fieldTitle">Make code unique:</td>
                 <td><?php swwat_createRadioOption(PARAM_UNIQUE, array(PARAM_UNIQUE, ""), SWWAT_CHECKBOX, $uniqueCode, TRUE); ?></td>
             </tr>
+            <tr><td class="fieldTitle">CSV File Format:</td>
+                <td><?php swwat_createSelect(0, "CSVFileFormat", array(array("FiveDegrees", "Five Degrees")), "FiveDegrees" , TRUE); ?></td>
+            </tr>
             <tr><td></td><td></td></tr>
             <tr><td class="fieldTitle">Upload File:</td><td><?php createFileUploadForm("InvitationFileUploadAction.php", PARAM_DOCUMENT); ?></td></tr>
 		</table>

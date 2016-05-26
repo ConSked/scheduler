@@ -189,7 +189,7 @@ include('section/header.php');
 	            <?php
 	            for ($j = 0; $j < count($optionOutList); $j++)
 	            {
-	                echo swwat_createOption($optionOutList[$j], FALSE);
+	                echo swwat_createOption(0, $optionOutList[$j], FALSE);
 	            } // $j
 	            $optionOutList = NULL;
 	            ?>
@@ -210,7 +210,7 @@ include('section/header.php');
 	            echo '<select name="', PARAM_LIST_MULTIPLE, '" multiple="multiple" size="20" style="width:100%">';
 	            for ($j = 0; $j < count($optionList); $j++)
 	            {
-	                swwat_createOption($optionList[$j], FALSE);
+	                swwat_createOption(0, $optionList[$j], FALSE);
 	            } // $j
 	            echo '</select>';
 	            $optionList = NULL;
