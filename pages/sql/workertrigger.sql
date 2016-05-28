@@ -15,9 +15,11 @@ CREATE TRIGGER workerexpo_delete BEFORE DELETE
         DELETE FROM shiftstatus
             WHERE expoid = OLD.expoid AND workerid = OLD.workerid;
         DELETE FROM jobpreference
-            WHERE workerid = OLD.workerid;
+            WHERE expoid = OLD.expoid AND workerid = OLD.workerid;
         DELETE FROM timepreference
-            WHERE workerid = OLD.workerid;
+            WHERE expoid = OLD.expoid AND workerid = OLD.workerid;
+        DELETE FROM newtimepreference
+            WHERE expoid = OLD.expoid AND workerid = OLD.workerid;
         DELETE FROM invitation
             WHERE expirationDate < CURRENT_DATE
             OR (expoid = OLD.expoid AND workerid = OLD.workerid);
