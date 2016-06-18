@@ -1,6 +1,8 @@
 constants.php
 wp-config.php
 consked.log
+.htaccess
+.htaccess.orig
 *.tar
 wp-admin/
 wp-content/
