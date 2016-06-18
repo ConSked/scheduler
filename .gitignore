@@ -2,4 +2,7 @@ constants.php
 wp-config.php
 consked.log
 *.tar
+wp-admin/
+wp-content/
+wp-includes/
 wp-snapshots/
