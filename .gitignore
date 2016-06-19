@@ -1,7 +1,6 @@
 .htaccess
 .htaccess.orig
 constants.php
-wp-config.php
 consked.log
 wp-*.php
 *.tar
