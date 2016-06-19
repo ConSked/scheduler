@@ -1,5 +1,10 @@
+.htaccess
+.htaccess.orig
 constants.php
-wp-config.php
 consked.log
+wp-*.php
 *.tar
+wp-admin/
+wp-content/
+wp-includes/
 wp-snapshots/
